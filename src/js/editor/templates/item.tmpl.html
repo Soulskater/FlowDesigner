@@ -1,0 +1,63 @@
+<svg>
+    <linearGradient id="running" fy="0">
+
+        <stop offset="0" stop-color="#007abc">
+        </stop>
+        <stop offset="1" stop-color="#dbdbdb">
+            <animate attributeName="offset" dur="1.5s" values="0;1;0"
+                     repeatCount="indefinite"/>
+        </stop>
+        <stop offset="1" stop-color="#007abc"/>
+
+    </linearGradient>
+
+    <g class="item">
+        <rect ng-width="width" ng-height="height"
+              ng-x="data.Position.X"
+              ng-y="data.Position.Y"
+              ng-class="data.Status"
+              class="box">
+        </rect>
+        <rect ng-x="data.Position.X+1"
+              ng-y="data.Position.Y-1" ng-width="width-2" height="2" ng-if="data.Status === $progressType.running"
+              fill="url(#running)"></rect>
+        <!--Item text-->
+        <foreignObject ng-x="data.Position.X" ng-y="data.Position.Y" ng-width="width" ng-height="height">
+            <span ng-click="removeItem()"
+                  class="glyphicon glyphicon-remove remove-item pull-right text-space s top right"></span>
+
+            <div class="text-space m left" ng-class="{'selected': data.selected}" style="padding-top: 5px;"
+                 ng-transclude>
+            </div>
+        </foreignObject>
+        <!--Left connection-->
+        <connector ng-repeat="property in data.InputProperties"
+                   item-id="data.Id"
+                   property="property"
+                   px="data.Position.X"
+                   py="data.Position.Y + 40 +((height-40)/(data.InputProperties.length + 1))*($index+1)"></connector>
+        <!--Right connections-->
+        <g ng-repeat="property in data.OutputProperties">
+            <line class="connector string" ng-repeat="reference in property.References"
+                  ng-click="selectReference(reference, property)"
+                  ng-keypress="deleteReference(property)"
+                  ng-x1="data.Position.X + width"
+                  ng-y1="data.Position.Y + 40+((height - 40)/(data.OutputProperties.length + 1))*($parent.$index+1)"
+                  ng-x2="getReferencedItem(property, reference).x" ng-y2="getReferencedItem(property, reference).y"
+                  ng-class="setReferenceStyle(property, reference)"/>
+            <connector item-id="data.Id"
+                       property="property"
+                       px="data.Position.X + width"
+                       py="data.Position.Y + 40+((height - 40)/(data.OutputProperties.length + 1))*($index+1)"></connector>
+        </g>
+
+        <rect ng-width="width-10" ng-height="height"
+              ng-x="data.Position.X + 5"
+              ng-y="data.Position.Y"
+              fill="transparent"
+              drag="onDragItem"
+              ng-mousedown="onDragStartItem($event)"
+              ng-click="itemClick({item: data, event: $event})">
+        </rect>
+    </g>
+</svg>

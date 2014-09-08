@@ -1,0 +1,65 @@
+/*Fonts*/
+/*Colors*/
+.editor {
+  overflow: visible;
+}
+/* region Item*/
+.item .box {
+  fill: #DBDBDB;
+  stroke-width: 2px;
+  stroke: #7a7a7a;
+}
+.item .box-header {
+  line-height: 21px;
+}
+.item .box-header span {
+  color: #282828;
+}
+.item .selected .box-header span {
+  color: #007acb !important;
+}
+.item .connector {
+  cursor: pointer;
+}
+.item .connector:hover {
+  stroke-width: 5px;
+}
+.item .connector.selected {
+  stroke-width: 5px;
+}
+.item .connector.no-value {
+  fill: #DBDBDB;
+}
+.item .running {
+  stroke: #007acb;
+}
+.item .failed {
+  stroke: indianred;
+}
+.item .succeeded {
+  stroke: #00b821;
+}
+.property-name {
+  max-width: 100px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: auto;
+}
+.remove-item {
+  font-size: 12px;
+  cursor: pointer;
+  color: #404040;
+}
+.string {
+  fill: #db4f00;
+  stroke: #db4f00;
+}
+.number {
+  fill: #3088db;
+  stroke: #3088db;
+}
+.bool {
+  fill: #00b821;
+  stroke: #00b821;
+}
+/* endregion Item*/

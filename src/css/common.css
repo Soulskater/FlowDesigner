@@ -1,0 +1,147 @@
+/*Fonts, colors*/
+/*Fonts*/
+/*Colors*/
+body {
+  background-color: #e4e4e4;
+}
+.font-xs {
+  font-family: 'Segoe UI', 'Open Sans Bold', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.font-s {
+  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+}
+.font-m {
+  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 2.1rem;
+}
+.font-l {
+  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.01em;
+}
+.font-xl {
+  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-size: 2.8rem;
+}
+.space.s.all {
+  margin: 5px;
+}
+.space.s.top {
+  margin-top: 5px;
+}
+.space.s.right {
+  margin-right: 5px;
+}
+.space.s.bottom {
+  margin-bottom: 5px;
+}
+.space.s.left {
+  margin-left: 5px;
+}
+.space.m.all {
+  margin: 10px;
+}
+.space.m.top {
+  margin-top: 10px;
+}
+.space.m.right {
+  margin-right: 10px;
+}
+.space.m.bottom {
+  margin-bottom: 10px;
+}
+.space.m.left {
+  margin-left: 10px;
+}
+.space.l.all {
+  margin: 15px;
+}
+.space.l.top {
+  margin-top: 15px;
+}
+.space.l.right {
+  margin-right: 15px;
+}
+.space.l.bottom {
+  margin-bottom: 15px;
+}
+.space.l.left {
+  margin-left: 15px;
+}
+.space.xl.all {
+  margin: 25px;
+}
+.space.xl.top {
+  margin-top: 25px;
+}
+.space.xl.right {
+  margin-right: 25px;
+}
+.space.xl.bottom {
+  margin-bottom: 25px;
+}
+.space.xl.left {
+  margin-left: 25px;
+}
+.text-space.s.all {
+  padding: 5px;
+}
+.text-space.s.top {
+  padding-top: 5px;
+}
+.text-space.s.right {
+  padding-right: 5px;
+}
+.text-space.s.bottom {
+  padding-bottom: 5px;
+}
+.text-space.s.left {
+  padding-left: 5px;
+}
+.text-space.m.all {
+  padding: 10px;
+}
+.text-space.m.top {
+  padding-top: 10px;
+}
+.text-space.m.right {
+  padding-right: 10px;
+}
+.text-space.m.bottom {
+  padding-bottom: 10px;
+}
+.text-space.m.left {
+  padding-left: 10px;
+}
+.text-space.l.all {
+  padding: 15px;
+}
+.text-space.l.top {
+  padding-top: 15px;
+}
+.text-space.l.right {
+  padding-right: 15px;
+}
+.text-space.l.bottom {
+  padding-bottom: 15px;
+}
+.text-space.l.left {
+  padding-left: 15px;
+}
+.text-space.xl.all {
+  padding: 25px;
+}
+.text-space.xl.top {
+  padding-top: 25px;
+}
+.text-space.xl.right {
+  padding-right: 25px;
+}
+.text-space.xl.bottom {
+  padding-bottom: 25px;
+}
+.text-space.xl.left {
+  padding-left: 25px;
+}

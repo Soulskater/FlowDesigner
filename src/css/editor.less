@@ -1,0 +1,95 @@
+@import "shared";
+
+@int-color: #3088db;
+@dark-red: #DB4F00;
+@light-green: #00B821;
+//@float-color:#3088db;
+
+.editor {
+    overflow: visible;
+}
+
+/* region Item*/
+.item {
+
+    .box {
+        fill: #DBDBDB;
+        stroke-width: 2px;
+        stroke: @ligher;
+    }
+
+    .box-header {
+        span {
+            color: #282828;
+        }
+        line-height: 21px;
+    }
+
+    .selected {
+        .box-header {
+            span {
+                color: @dark-blue !important;
+            }
+
+        }
+    }
+
+    .connector {
+        cursor: pointer;
+
+        &:hover {
+            stroke-width: 5px;
+        }
+
+        &.selected {
+            stroke-width: 5px;
+        }
+        &.no-value {
+            fill: #DBDBDB;
+        }
+    }
+
+    .notrun {
+
+    }
+    .running {
+        stroke: @dark-blue;
+    }
+    .failed {
+        stroke: indianred;
+    }
+    .succeeded {
+        stroke: @light-green;
+    }
+
+}
+
+.property-name {
+    max-width: 100px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: auto;
+}
+
+.remove-item {
+    font-size: 12px;
+    cursor: pointer;
+    color: @dark-grey
+}
+
+.string {
+    fill: @dark-red;
+    stroke: @dark-red;
+}
+
+.number {
+    fill: @int-color;
+    stroke: @int-color;
+}
+
+.bool {
+    fill: @light-green;
+    stroke: @light-green;
+}
+
+/* endregion Item*/

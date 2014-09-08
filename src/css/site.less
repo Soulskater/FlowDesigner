@@ -1,0 +1,338 @@
+@import "shared.less";
+
+body {
+    background-color: @light-grey;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+}
+
+.header {
+    height: 50px;
+    line-height: 48px;
+    background-color: @header-dark;
+    color: @white;
+    width: 100%;
+    position: fixed;
+    //box-shadow: 0px 1px 10px @box-color;
+    z-index: 100;
+}
+
+.page-wrapper {
+    padding-top: 60px;
+    white-space: nowrap;
+    font-size: 0;
+}
+
+.tool-panel {
+    margin-top: 60px;
+    z-index: 11 !important;
+
+    h3 {
+        color: @white;
+    }
+
+    label {
+        color: @white;
+        font-weight: normal;
+        margin: 0;
+    }
+
+    input {
+        color: @dark-grey;
+        width: 100%;
+        height: 25px;
+        line-height: 25px;
+        display: block;
+        border: none;
+        background: @light-grey;
+        padding-left: 5px;
+        margin-bottom: 10px;
+    }
+
+    input[type='checkbox'] {
+        height: 15px;
+        width: auto;
+    }
+
+    .settings {
+        width: 100%;
+        label {
+            margin-bottom: 5px;
+        }
+        input {
+            margin-bottom: 5px;
+        }
+    }
+
+    .separator {
+        height: 1px;
+        background: @ligher;
+    }
+
+    .add-setting {
+        cursor: pointer;
+    }
+}
+
+.progress {
+    display: inline;
+    background-image: url("/images/progress.gif");
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+}
+
+.panel-progress {
+    padding-bottom: 3px;
+    padding-left: 5px;
+}
+
+.flows {
+    color: @white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    .flow-item {
+        margin: 0 5px 0 5px;
+        padding: 5px;
+        &:hover, &.selected-flow {
+            background: @ligher;
+            cursor: pointer;
+        }
+    }
+}
+
+.editor-panel {
+    margin-top: 60px;
+    background-color: @light-grey !important;
+    .selector {
+        height: 3px;
+        background: @dark-blue;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+    .title {
+        border-bottom: none !important;
+        color: @dark-blue !important;
+        background: none !important;
+        padding-left: 15px !important;
+    }
+}
+
+.description {
+    color: @white;
+    white-space: normal;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.editor-container {
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.delete-flow {
+    font-size: 11px;
+    cursor: pointer;
+    padding-top: 5px;
+}
+
+.user-info {
+    line-height: 30px;
+    cursor: pointer;
+    padding-top: 9px;
+    height: 100%;
+    padding-left: 10px;
+
+    .user-info-cog {
+        font-size: 10pt;
+    }
+
+    &:hover {
+        background: @highlight-dark;
+        border-bottom: 1px solid @header-dark;
+    }
+}
+
+.taskrunner-logo {
+    width: 28px;
+    height: 40px;
+    background: url('../images/taskrunnericon.png') no-repeat;
+    background-size: 20px;
+    float: left;
+    margin-top: 9px;
+}
+
+.profile-picture {
+    height: 30px;
+    margin-top: -4px;
+}
+
+.button {
+    background: @dark-blue;
+    color: @white;
+    width: 80px;
+    height: 45px;
+    line-height: 45px;
+    cursor: pointer;
+    text-align: center;
+    &:hover {
+        background: #008ACB;
+    }
+}
+
+.run-button {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.save-button {
+    background: @ligher;
+    position: absolute;
+    bottom: 15px;
+    right: 130px;
+}
+
+.save-user-setting-button {
+    margin-top: 5px;
+}
+
+.console-panel {
+
+    .console-window {
+        overflow: auto;
+        position: absolute;
+        left: 5px;
+        right: 5px;
+        top: 5px;
+        bottom: 0px;
+        padding: 10px;
+        -webkit-user-select: auto;
+        -moz-user-select: auto;
+        -ms-user-select: auto;
+        user-select: auto;
+        cursor: auto;
+
+        .console-item {
+            padding-left: 5px;
+            border-left: 3px solid;
+            color: @white;
+            margin-bottom: 10px;
+            white-space: normal;
+            overflow: auto;
+            word-wrap: break-word;
+            &.error {
+                border-left-color: indianred;
+            }
+            &.info {
+                border-left-color: @dark-blue;
+            }
+            &.warning {
+
+            }
+        }
+
+    }
+}
+
+.filter-console {
+    padding-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: @ligher;
+    &:hover {
+        color: @white;
+    }
+}
+
+.filter-panel {
+    background: @dark-grey;
+    border: 1px solid @dark-blue;
+    padding: 5px 10px 10px 10px;
+    color: @white;
+    position: absolute;
+    left: 10px;
+    z-index: 10;
+
+    .error-filter {
+        border-bottom: 2px solid indianred;
+        cursor: pointer;
+    }
+
+    .info-filter {
+        border-bottom: 2px solid @dark-blue;
+        cursor: pointer;
+    }
+}
+
+.user-settings-panel {
+    background: @dark-grey;
+    border: 1px solid @dark-blue;
+    padding: 0 10px 10px 10px;
+    color: @white;
+    position: absolute;
+    right: 10px;
+    z-index: 10;
+    min-width: 200px;
+
+}
+
+.remove-setting {
+    cursor: pointer;
+    color: @white;
+    padding-left: 5px;
+}
+
+.clear-console {
+    padding-left: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: @ligher;
+    &:hover {
+        color: @white;
+    }
+}
+
+.open-done {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    .open-box{
+
+        &.succeeded{
+            background: #5cb85c;
+            border: 1px solid #4cae4c;
+        }
+        &.failed{
+            background: #cd5c5c;
+            border: 1px solid #cd6462;
+        }
+        color: @white;
+        text-align: center;
+        font-size: 32px;
+        width: 120px;
+        height: 100px;
+        position: absolute;
+        left: 50%;
+        margin-left: -100px;
+        top: 50%;
+        margin-top: -100px;
+        box-shadow: 1px 1px 10px @dark-grey;
+    }
+}

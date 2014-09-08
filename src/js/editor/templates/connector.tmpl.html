@@ -1,0 +1,21 @@
+<svg>
+    <g ng-mouseup="endDrag()">
+        <circle r="4" class="connector string" ng-class="setStyle()" ng-cx="x" ng-cy="y" drag="onDrag"
+                ng-mousedown="startDrag()"><title>{{property.HintText}}</title>
+        </circle>
+        <line class="connector string"
+              ng-if="dragging"
+              ng-x1="x" ng-y1="y"
+              ng-x2="currentPosition.x" ng-y2="currentPosition.y"/>
+        <foreignObject ng-if="property.Direction === 'input'" ng-x="x+5" ng-y="y-10" width="100" height="20">
+            <div class="text-space s left font-xs text-left property-name" title="{{property.LabelText}}">
+                {{property.LabelText}}
+            </div>
+        </foreignObject>
+        <foreignObject ng-if="property.Direction === 'output'" ng-x="x-105" ng-y="y-10" width="100" height="20">
+            <div class="text-space s right font-xs text-right property-name" title="{{property.LabelText}}">
+                {{property.LabelText}}
+            </div>
+        </foreignObject>
+    </g>
+</svg>
