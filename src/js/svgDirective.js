@@ -1,7 +1,7 @@
 /**
  * Created by gmeszaros on 8/5/2014.
  */
-angular.module('TaskRunner.Directive', [])
+angular.module('Svg.Directive', [])
     .directive('ngWidth', [function () {
         return{
             restrict: 'A',

@@ -1,7 +1,7 @@
 /**
  * Created by gmeszaros on 8/5/2014.
  */
-angular.module('TaskRunner.Directive.Editor', ['TaskRunner.Directive'])
+angular.module('FlowDesigner', ['Svg.Directive'])
     .constant("types", {
         string: 'Text',
         bool: 'Bool',
@@ -162,12 +162,12 @@ angular.module('TaskRunner.Directive.Editor', ['TaskRunner.Directive'])
         }
     }])
     .
-    directive('editor', ["$timeout", function ($timeout) {
+    directive('designer', ["$timeout", function ($timeout) {
         return{
             restrict: "AE",
             transclude: false,
             replace: true,
-            templateUrl: 'js/directives/editor/templates/editor.tmpl.html',
+            templateUrl: 'js/directives/editor/templates/flowDesigner.tmpl.html',
             scope: {
                 autoSize: '=',
                 items: '=',
@@ -214,7 +214,7 @@ angular.module('TaskRunner.Directive.Editor', ['TaskRunner.Directive'])
             }
         };
     }])
-    .controller("itemController", ['$scope', function ($scope) {
+    .controller("itemCtrl", ['$scope', function ($scope) {
     }])
     .directive('item', [ 'types', 'progressType', function ($types, $progressType) {
         return{
