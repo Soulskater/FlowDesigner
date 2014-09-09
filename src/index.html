@@ -3,8 +3,26 @@
     <head lang="en">
         <meta charset="UTF-8">
         <title>Flow Designer</title>
-    </head>
-    <body>
+        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+        <link href="css/flowDesigner.css" type="text/css" rel="stylesheet">
 
+        <script src="js/lib/jquery-2.1.1.js" type="text/javascript"></script>
+        <script src="js/lib/angular.js" type="text/javascript"></script>
+        <script src="js/lib/bootstrap.js" type="text/javascript"></script>
+
+        <script src="js/svgDirective.js"></script>
+        <script src="js/designerDirective.js"></script>
+        <script src="js/designerCtrl.js"></script>
+        <script src="js/itemDirective.js"></script>
+        <script src="js/connectorDirective.js"></script>
+
+        <script src="js/TestCtrl.js"></script>
+    </head>
+    <body ng-app="TestModule">
+        <div ng-controller="TestCtrl" style="border: 2px solid #269abc;width: 200px;height: 200px;">
+            <designer>
+
+            </designer>
+        </div>
     </body>
 </html>

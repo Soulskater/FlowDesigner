@@ -119,4 +119,37 @@ angular.module('Svg.Directive', [])
                 });
             }
         };
+    }])
+    .directive('autoSize', [function () {
+        return{
+            restrict: 'A',
+            replace: true,
+            scope: false,
+            link: function ($scope, element, attrs) {
+                $(window).resize(function () {
+                    $scope.$apply(function () {
+                        $scope.size = {
+                            width: element.width(),
+                            height: element.height()
+                        };
+                    });
+                });
+            }
+        };
+    }])
+    .directive('ngViewbox', [function () {
+        return{
+            restrict: 'A',
+            replace: true,
+            scope: false,
+            link: function ($scope, element, attrs) {
+                $scope.$watch(attrs.ngViewbox, function (viewbox) {
+                    if (!viewbox) {
+                        return;
+                    }
+                    var value = viewbox.x + " " + viewbox.y + " " + viewbox.width + " " + viewbox.height;
+                    element[0].setAttribute("viewBox", value);
+                });
+            }
+        };
     }]);
