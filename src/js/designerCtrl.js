@@ -4,8 +4,8 @@
 angular.module('FlowDesigner')
     .controller("designerCtrl", ['$scope', function ($scope) {
         $scope.size = {
-            width: 100,
-            height: 100
+            width: 0,
+            height: 0
         };
         $scope.scale = {
             x: 1,
@@ -13,7 +13,7 @@ angular.module('FlowDesigner')
         };
         $scope.viewBox = null;
         $scope.onMouseWheel = function (event) {
-            var step = 0.1;
+            var step = 0.4;
 
             if (event.deltaY === -1) {
                 if ($scope.scale.x - step <= 0 || $scope.scale.y - step <= 0) {
