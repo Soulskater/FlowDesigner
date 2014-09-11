@@ -152,4 +152,22 @@ angular.module('Svg.Directive', [])
                 });
             }
         };
+    }])
+    .directive('textEllipsis', [function () {
+        return{
+            restrict: 'A',
+            replace: true,
+            scope: false,
+            link: function ($scope, element, attrs) {
+                var maxWidth = parseFloat(attrs.maxWidth);
+                var value = $scope.$eval(attrs.textEllipsis);
+                element.text(value);
+                if (element.width() > maxWidth) {
+                    while (element.width() > maxWidth) {
+                        value = value.substring(0, value.length - 1);
+                        element.text(value.substring(0, value.length - 1) + '...');
+                    }
+                }
+            }
+        };
     }]);

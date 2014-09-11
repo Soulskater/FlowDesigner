@@ -1,2 +1,6 @@
 /*Fonts*/
+@font-face {
+  font-family: metro-ui;
+  src: url(../fonts/weblysleekuil.ttf);
+}
 /*Colors*/

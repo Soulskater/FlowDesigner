@@ -5,8 +5,10 @@ angular.module('FlowDesigner')
     .controller("itemCtrl", ['$scope', 'types', 'status', function ($scope, $types, $status) {
         $scope.$status = $status;
         $scope.$types = $types;
+        $scope.width = 250;
+        $scope.height = 170;
     }])
-    .directive('item', [ 'types', 'progressType', function ($types, $progressType) {
+    .directive('designerItem', [ 'types', 'status', function ($types, $status) {
         return{
             restrict: "AE",
             require: '^designer',

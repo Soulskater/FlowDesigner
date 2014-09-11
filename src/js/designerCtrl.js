@@ -44,5 +44,4 @@ angular.module('FlowDesigner')
                 };
             }
         });
-
     }]);

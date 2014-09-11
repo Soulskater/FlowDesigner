@@ -1,67 +1,17 @@
 @import "shared";
 
-@int-color: #3088db;
+@blue-color: #3088db;
 @dark-red: #DB4F00;
 @light-green: #00B821;
-//@float-color:#3088db;
 
 .designer {
     overflow: visible;
 }
 
 /* region Item*/
-.item {
-
-    .box {
-        fill: #DBDBDB;
-        stroke-width: 2px;
-        stroke: @ligher;
-    }
-
-    .box-header {
-        span {
-            color: #282828;
-        }
-        line-height: 21px;
-    }
-
-    .selected {
-        .box-header {
-            span {
-                color: @dark-blue !important;
-            }
-
-        }
-    }
-
-    .connector {
-        cursor: pointer;
-
-        &:hover {
-            stroke-width: 5px;
-        }
-
-        &.selected {
-            stroke-width: 5px;
-        }
-        &.no-value {
-            fill: #DBDBDB;
-        }
-    }
-
-    .notrun {
-
-    }
-    .running {
-        stroke: @dark-blue;
-    }
-    .failed {
-        stroke: indianred;
-    }
-    .succeeded {
-        stroke: @light-green;
-    }
-
+.designer-item {
+    stroke: @dark-grey;
+    fill: @light-grey;
 }
 
 .property-name {
@@ -77,19 +27,23 @@
     color: @dark-grey
 }
 
+/* region types */
+
 .string {
     fill: @dark-red;
     stroke: @dark-red;
 }
 
 .number {
-    fill: @int-color;
-    stroke: @int-color;
+    fill: @dark-blue;
+    stroke: @dark-blue;
 }
 
 .bool {
     fill: @light-green;
     stroke: @light-green;
 }
+
+/* endregion types */
 
 /* endregion Item*/

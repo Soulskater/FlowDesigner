@@ -1,28 +1,32 @@
 /*Fonts, colors*/
 /*Fonts*/
+@font-face {
+  font-family: metro-ui;
+  src: url(../fonts/weblysleekuil.ttf);
+}
 /*Colors*/
 body {
   background-color: #e4e4e4;
 }
 .font-xs {
-  font-family: 'Segoe UI', 'Open Sans Bold', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'metro-ui';
   font-size: 14px;
 }
 .font-s {
-  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'metro-ui';
   font-size: 1.6rem;
 }
 .font-m {
-  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'metro-ui';
   font-size: 2.1rem;
 }
 .font-l {
-  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'metro-ui';
   font-size: 2.5rem;
   letter-spacing: 0.01em;
 }
 .font-xl {
-  font-family: 'Segoe UI Light', 'Open Sans Light', Verdana, Arial, Helvetica, sans-serif;
+  font-family: 'metro-ui';
   font-size: 2.8rem;
 }
 .space.s.all {
