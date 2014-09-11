@@ -12,6 +12,15 @@
 .designer-item {
     stroke: @dark-grey;
     fill: @light-grey;
+    stroke-width:2px;
+
+    .frame {
+        fill: transparent;
+    }
+
+    &.running{
+        stroke:@dark-blue !important;
+    }
 }
 
 .property-name {
@@ -21,10 +30,12 @@
     overflow: auto;
 }
 
-.remove-item {
-    font-size: 12px;
+.remove-btn {
     cursor: pointer;
-    color: @dark-grey
+    line {
+        stroke: @dark-grey;
+        stroke-width: 2px;
+    }
 }
 
 /* region types */

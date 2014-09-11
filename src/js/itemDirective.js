@@ -20,7 +20,7 @@ angular.module('FlowDesigner')
             },
             controller: 'itemCtrl',
             link: function ($scope, element, attrs, editorCtrl) {
-
+                $scope.data.Status = $status.notrun;
                 //
                 //It needs for angular, removes svg wrapper
                 var e = angular.element(element.children());

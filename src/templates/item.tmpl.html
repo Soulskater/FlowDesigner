@@ -1,35 +1,42 @@
 <svg>
     <linearGradient id="running" fy="0">
 
-        <stop offset="0" stop-color="#007abc">
+        <stop offset="0" stop-color="#007acb">
         </stop>
         <stop offset="1" stop-color="#dbdbdb">
             <animate attributeName="offset" dur="1.5s" values="0;1;0"
                      repeatCount="indefinite"/>
         </stop>
-        <stop offset="1" stop-color="#007abc"/>
+        <stop offset="1" stop-color="#007acb"/>
 
     </linearGradient>
 
-    <g class="designer-item" transform="translate(0,60)">
-        <rect ng-width="width" ng-height="height"
-              ng-x="data.Position.X"
-              ng-y="data.Position.Y"
-              ng-class="data.Status"
-              class="box">
-        </rect>
+    <g>
         <!--Item text-->
         <foreignObject ng-x="data.Position.X" ng-y="data.Position.Y" ng-width="width" ng-height="height">
-            <span ng-click="removeItem()"
-                  class="glyphicon glyphicon-remove remove-item pull-right text-space s top right"></span>
-
             <div class="text-space m left" ng-class="{'selected': data.selected}" style="padding-top: 5px;"
                  ng-transclude>
             </div>
         </foreignObject>
-        <!--<rect ng-x="data.Position.X+1"
-              ng-y="data.Position.Y-1" ng-width="width-2" height="2" ng-if="data.Status === $progressType.running"
-              fill="url(#running)"></rect>-->
+        <rect ng-width="width" ng-height="height"
+              ng-x="data.Position.X"
+              ng-y="data.Position.Y"
+              ng-class="data.Status"
+              class="designer-item frame">
+        </rect>
+        <!--Progressbar-->
+        <rect ng-x="data.Position.X"
+              ng-y="data.Position.Y-1" ng-width="width" height="2" ng-if="data.Status === $status.running"
+              fill="url(#running)"></rect>
+        <!--Delete item-->
+        <g class="remove-btn">
+            <line ng-x1="data.Position.X+width-13" ng-y1="data.Position.Y+5+7" ng-x2="data.Position.X+width-13+7"
+                  ng-y2="data.Position.Y+5"></line>
+            <line ng-x1="data.Position.X+width-13" ng-y1="data.Position.Y+5" ng-x2="data.Position.X+width-13+7"
+                  ng-y2="data.Position.Y+5+7"></line>
         </g>
+        <!--InputProperties-->
+        <connector></connector>
+    </g>
     </g>
 </svg>

@@ -11,6 +11,13 @@
 .designer-item {
   stroke: #404040;
   fill: #e4e4e4;
+  stroke-width: 2px;
+}
+.designer-item .frame {
+  fill: transparent;
+}
+.designer-item.running {
+  stroke: #007acb !important;
 }
 .property-name {
   max-width: 100px;
@@ -18,10 +25,12 @@
   text-overflow: ellipsis;
   overflow: auto;
 }
-.remove-item {
-  font-size: 12px;
+.remove-btn {
   cursor: pointer;
-  color: #404040;
+}
+.remove-btn line {
+  stroke: #404040;
+  stroke-width: 2px;
 }
 /* region types */
 .string {

@@ -1,7 +1,7 @@
 <svg>
-    <g ng-mouseup="endDrag()">
-        <circle r="4" class="connector string" ng-class="setStyle()" ng-cx="x" ng-cy="y" drag="onDrag"
-                ng-mousedown="startDrag()"><title>{{property.HintText}}</title>
+    <g>
+        <circle r="4" class="connector string" ng-cx="x" ng-cy="y">
+            <title>{{property.HintText}}</title>
         </circle>
         <line class="connector string"
               ng-if="dragging"
