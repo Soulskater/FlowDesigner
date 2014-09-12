@@ -10,11 +10,8 @@
 /* region Item*/
 .designer-item {
   stroke: #404040;
-  fill: #e4e4e4;
-  stroke-width: 2px;
-}
-.designer-item .frame {
   fill: transparent;
+  stroke-width: 2px;
 }
 .designer-item.running {
   stroke: #007acb !important;

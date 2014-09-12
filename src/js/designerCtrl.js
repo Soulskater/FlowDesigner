@@ -12,6 +12,16 @@ angular.module('FlowDesigner')
             y: 1
         };
         $scope.viewBox = null;
+        //region Designer item handling
+
+        this.removeItem = function (item) {
+            //TODO remove references from item
+            linq($scope.items).remove(item);
+        };
+
+        //endregion Designer item handling
+
+        //region Zooming
         $scope.onMouseWheel = function (event) {
             var step = 0.4;
 
@@ -44,4 +54,5 @@ angular.module('FlowDesigner')
                 };
             }
         });
+        //endregion Zooming
     }]);

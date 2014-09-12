@@ -217,4 +217,4 @@ pip-log.txt
 #############
 ## WebStorm
 #############
-workspace.xml
+.idea/workspace.xml
