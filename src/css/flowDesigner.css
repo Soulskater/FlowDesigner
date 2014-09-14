@@ -6,8 +6,14 @@
 /*Colors*/
 .designer {
   overflow: visible;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 /* region Item*/
+.transparent {
+  fill: transparent;
+}
 .designer-item {
   stroke: #404040;
   fill: transparent;

@@ -6,16 +6,23 @@
 
 .designer {
     overflow: visible;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /* region Item*/
+.transparent {
+    fill: transparent;
+}
+
 .designer-item {
     stroke: @dark-grey;
     fill: transparent;
-    stroke-width:2px;
+    stroke-width: 2px;
 
-    &.running{
-        stroke:@dark-blue !important;
+    &.running {
+        stroke: @dark-blue !important;
     }
 }
 

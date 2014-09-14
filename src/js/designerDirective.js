@@ -1,7 +1,7 @@
 /**
  * Created by gmeszaros on 8/5/2014.
  */
-angular.module('FlowDesigner', ['Svg.Directive', 'Common.Directive'])
+angular.module('FlowDesigner', ['Svg.Directive', 'Hammer.Directive', 'Common.Directive'])
     .constant("types", {
         text: 'Text',
         bool: 'Bool',
@@ -12,6 +12,10 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Common.Directive'])
         running: 'running',
         failed: 'failed',
         succeeded: 'succeeded'
+    })
+    .constant("direction", {
+        notrun: 'input',
+        running: 'output'
     })
     .directive('designer', ["$timeout", function ($timeout) {
         return{

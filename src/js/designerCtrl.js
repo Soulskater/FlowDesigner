@@ -11,7 +11,13 @@ angular.module('FlowDesigner')
             x: 1,
             y: 1
         };
-        $scope.viewBox = null;
+        $scope.viewBox = {
+            x: 0,
+            y: 0,
+            width: 0,
+            height: 0
+        };
+        $scope.moving = false;
         //region Designer item handling
 
         this.removeItem = function (item) {
@@ -22,6 +28,7 @@ angular.module('FlowDesigner')
         //endregion Designer item handling
 
         //region Zooming
+
         $scope.onMouseWheel = function (event) {
             var step = 0.4;
 
@@ -29,30 +36,54 @@ angular.module('FlowDesigner')
                 if ($scope.scale.x - step <= 0 || $scope.scale.y - step <= 0) {
                     return;
                 }
-                $scope.scale = {
-                    x: $scope.scale.x - step,
-                    y: $scope.scale.y - step
-                };
+                $scope.scale.x -= step;
+                $scope.scale.y -= step;
             }
             if (event.deltaY === 1) {
-                $scope.scale = {
-                    x: $scope.scale.x + step,
-                    y: $scope.scale.y + step
-                };
+                $scope.scale.x += step;
+                $scope.scale.y += step;
             }
         };
-        $scope.$watchGroup(['size', 'scale'], function () {
-            if ($scope.scale.x === 1 && $scope.scale.y === 1) {
-                $scope.viewBox = null;
-            }
-            else {
-                $scope.viewBox = {
-                    x: 0,
-                    y: 0,
-                    width: $scope.size.width / $scope.scale.x,
-                    height: $scope.size.height / $scope.scale.y
-                };
-            }
-        });
+
+        function _updateViewBoxSize() {
+            $scope.viewBox.width = $scope.size.width / $scope.scale.x;
+            $scope.viewBox.height = $scope.size.height / $scope.scale.y;
+        }
+
+        var sizeWatcher = $scope.$watch('size', _updateViewBoxSize, true);
+        var scaleWatcher = $scope.$watch('scale', _updateViewBoxSize, true);
+
         //endregion Zooming
-    }]);
+
+        // region Viewbox moving
+
+        var moveX, moveY = 0;
+        $scope.moveStart = function ($event) {
+            moveX = $event.clientX;
+            moveY = $event.clientY;
+            $scope.moving = true;
+        };
+
+        $scope.move = function ($event) {
+            var x = $event.clientX;
+            var y = $event.clientY;
+            $scope.viewBox.x -= x - moveX;
+            $scope.viewBox.y -= y - moveY;
+            moveX = x;
+            moveY = y;
+        };
+
+        $scope.moveEnd = function ($event) {
+            $scope.moving = false;
+        };
+
+        //endregion Viewbox moving
+
+        //
+        //Disposing
+        $scope.$on('$destroy', function () {
+            sizeWatcher();
+            scaleWatcher();
+        });
+    }])
+;

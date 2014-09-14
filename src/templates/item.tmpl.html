@@ -10,7 +10,6 @@
         <stop offset="1" stop-color="#007acb"/>
 
     </linearGradient>
-
     <g>
         <!--Item text-->
         <foreignObject ng-x="data.Position.X" ng-y="data.Position.Y" ng-width="width" ng-height="height">
@@ -18,12 +17,32 @@
                  ng-transclude>
             </div>
         </foreignObject>
+
+        <!--Style rect-->
         <rect ng-width="width" ng-height="height"
               ng-x="data.Position.X"
               ng-y="data.Position.Y"
-              ng-class="data.Status"
-              class="designer-item">
+              class="designer-item"
+              ng-class="data.Status">
         </rect>
+
+        <!--Input properties-->
+        <connector ng-repeat="property in data.InputProperties" px="data.Position.X"
+                   py="data.Position.Y +(height/(data.InputProperties.length + 1))*($index+1)"
+                   property="property"></connector>
+        <!--Output properties-->
+        <connector ng-repeat="property in data.OutputProperties" px="data.Position.X + width"
+                   py="data.Position.Y +(height/(data.OutputProperties.length + 1))*($index+1)"
+                   property="property"></connector>
+
+        <rect ng-width="width" ng-height="height"
+              ng-x="data.Position.X"
+              ng-y="data.Position.Y"
+              pan-start="dragStart($event)"
+              pan="drag($event)"
+              class="transparent">
+        </rect>
+
         <!--Progressbar-->
         <rect ng-x="data.Position.X"
               ng-y="data.Position.Y-1" ng-width="width" height="2" ng-if="data.Status === $status.running"

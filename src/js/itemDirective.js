@@ -7,6 +7,21 @@ angular.module('FlowDesigner')
         $scope.$types = $types;
         $scope.width = 250;
         $scope.height = 170;
+        var dragX, dragY = 0;
+        $scope.dragStart = function ($event) {
+            dragX = $event.clientX;
+            dragY = $event.clientY;
+            $event.stopPropagation();
+        };
+        $scope.drag = function ($event) {
+            var x = $event.clientX;
+            var y = $event.clientY;
+            $scope.data.Position.X += x - dragX;
+            $scope.data.Position.Y += y - dragY;
+            dragX = x;
+            dragY = y;
+            $event.stopPropagation();
+        };
     }])
     .directive('designerItem', [ 'types', 'status', function ($types, $status) {
         return{

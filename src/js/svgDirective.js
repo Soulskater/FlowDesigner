@@ -149,7 +149,7 @@ angular.module('Svg.Directive', [])
                     }
                     var value = viewbox.x + " " + viewbox.y + " " + viewbox.width + " " + viewbox.height;
                     element[0].setAttribute("viewBox", value);
-                });
+                }, true);
             }
         };
     }])

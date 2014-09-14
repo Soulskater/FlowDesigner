@@ -2,20 +2,19 @@
  * Created by gmeszaros on 9/9/2014.
  */
 angular.module('FlowDesigner')
-.directive('connector', ["types", function ($types) {
+.directive('connector', ['types', 'direction', function ($types, $direction) {
     return{
         restrict: "AE",
         replace: true,
-        require: '^designerItem',
+        require: '^designer',
         templateUrl: 'templates/connector.tmpl.html',
         scope: {
-            itemId: '=',
+            itemData: '=',
             property: '=',
             x: '=px',
             y: '=py'
         },
-        link: function ($scope, element, attrs, editorCtrl) {
-            //var noReferences = $scope.property.Direction === "input" ? $scope.property.Reference === null : $scope.property.References === null;
+        link: function ($scope, element, attrs, designerCtrl) {
 
             $scope.setStyle = function () {
                 return {
