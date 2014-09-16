@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af478c9-155c-4053-847c-d582bdca1cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/flowDesigner.css" afterPath="$PROJECT_DIR$/src/css/flowDesigner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/item.tmpl.html" afterPath="$PROJECT_DIR$/src/templates/item.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/designerCtrl.js" afterPath="$PROJECT_DIR$/src/js/designerCtrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/itemDirective.js" afterPath="$PROJECT_DIR$/src/js/itemDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FlowDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,7 +53,7 @@
       <file leaf-file-name="designerDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="748">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
               <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
               <folding />
             </state>
@@ -69,12 +70,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designerCtrl.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="designerCtrl.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1598">
-              <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.5816777" vertical-offset="85" max-vertical-offset="1496">
+              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+              <folding>
+                <element signature="e#161#216#0" expanded="false" />
+                <element signature="e#241#287#0" expanded="false" />
+                <element signature="e#314#405#0" expanded="false" />
+                <element signature="e#611#642#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +88,8 @@
       <file leaf-file-name="itemDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1207">
-              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -102,18 +108,18 @@
       <file leaf-file-name="connector.tmpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
+            <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="442">
               <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="item.tmpl.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="item.tmpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40568182" vertical-offset="0" max-vertical-offset="952">
-              <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="952">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="tag#linearGradient#0;tag#svg#0" expanded="false" />
               </folding>
@@ -164,14 +170,14 @@
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/js/svgDirective.js" />
         <option value="$PROJECT_DIR$/src/templates/designer.tmpl.html" />
-        <option value="$PROJECT_DIR$/src/js/designerCtrl.js" />
-        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
         <option value="$PROJECT_DIR$/src/js/hammerDirective.js" />
         <option value="$PROJECT_DIR$/src/js/designerDirective.js" />
         <option value="$PROJECT_DIR$/src/js/connectorDirective.js" />
         <option value="$PROJECT_DIR$/src/css/flowDesigner.less" />
         <option value="$PROJECT_DIR$/src/js/TestCtrl.js" />
         <option value="$PROJECT_DIR$/src/templates/item.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
+        <option value="$PROJECT_DIR$/src/js/designerCtrl.js" />
       </list>
     </option>
   </component>
@@ -543,7 +549,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="901">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-          <folding />
+          <folding>
+            <element signature="e#161#216#0" expanded="false" />
+            <element signature="e#241#287#0" expanded="false" />
+            <element signature="e#314#405#0" expanded="false" />
+            <element signature="e#611#642#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -808,14 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="918">
-          <caret line="71" column="22" selection-start-line="71" selection-start-column="22" selection-end-line="71" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="680">
@@ -832,26 +835,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="867">
-          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/connectorDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="14" max-vertical-offset="697">
           <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="442">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -874,10 +861,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40568182" vertical-offset="0" max-vertical-offset="952">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="952">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="tag#linearGradient#0;tag#svg#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
+          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="442">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5816777" vertical-offset="85" max-vertical-offset="1496">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+          <folding>
+            <element signature="e#161#216#0" expanded="false" />
+            <element signature="e#241#287#0" expanded="false" />
+            <element signature="e#314#405#0" expanded="false" />
+            <element signature="e#611#642#0" expanded="false" />
           </folding>
         </state>
       </provider>

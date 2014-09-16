@@ -16,8 +16,8 @@ angular.module('FlowDesigner')
         $scope.drag = function ($event) {
             var x = $event.clientX;
             var y = $event.clientY;
-            $scope.data.Position.X += x - dragX;
-            $scope.data.Position.Y += y - dragY;
+            $scope.data.Position.X += (x - dragX) * (1/$scope.designer.getScale().x);
+            $scope.data.Position.Y += (y - dragY) * (1/$scope.designer.getScale().y);
             dragX = x;
             dragY = y;
             $event.stopPropagation();
