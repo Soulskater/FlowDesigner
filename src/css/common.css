@@ -5,9 +5,9 @@
   src: url(../fonts/weblysleekuil.ttf);
 }
 /*Colors*/
-body {
-  background-color: #e4e4e4;
-}
+/*body {
+ background-color: @light-grey;
+}*/
 .font-xs {
   font-family: 'metro-ui';
   font-size: 14px;

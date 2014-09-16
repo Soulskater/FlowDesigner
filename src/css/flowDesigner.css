@@ -16,7 +16,7 @@
 }
 .designer-item {
   stroke: #404040;
-  fill: transparent;
+  fill: #f3f3f3;
   stroke-width: 2px;
 }
 .designer-item.running {
