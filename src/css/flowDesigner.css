@@ -35,7 +35,13 @@
   stroke: #404040;
   stroke-width: 2px;
 }
-/* region types */
+.connector {
+  cursor: pointer;
+}
+.connector:hover {
+  stroke-width: 3px;
+}
+/* region Property Types */
 .string {
   fill: #db4f00;
   stroke: #db4f00;

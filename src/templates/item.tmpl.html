@@ -11,13 +11,6 @@
 
     </linearGradient>
     <g>
-        <!--Item text-->
-        <foreignObject ng-x="data.Position.X" ng-y="data.Position.Y" ng-width="width" height="50">
-            <div class="text-space m left" ng-class="{'selected': data.selected}" style="padding-top: 5px;"
-                 ng-transclude>
-            </div>
-        </foreignObject>
-
         <!--Style rect-->
         <rect ng-width="width" ng-height="height"
               ng-x="data.Position.X"
@@ -26,17 +19,24 @@
               ng-class="data.Status">
         </rect>
 
+        <!--Item text-->
+        <foreignObject ng-x="data.Position.X" ng-y="data.Position.Y" ng-width="width" height="50">
+            <div class="text-space m left" ng-class="{'selected': data.selected}" style="padding-top: 5px;"
+                 ng-transclude>
+            </div>
+        </foreignObject>
+
         <!--Input properties-->
         <connector ng-repeat="property in data.InputProperties" px="data.Position.X"
-                   py="data.Position.Y +(height/(data.InputProperties.length + 1))*($index+1)"
+                   py="data.Position.Y + 50 +((height-50)/(data.InputProperties.length + 1))*($index+1)"
                    property="property"></connector>
         <!--Output properties-->
         <connector ng-repeat="property in data.OutputProperties" px="data.Position.X + width"
-                   py="data.Position.Y +(height/(data.OutputProperties.length + 1))*($index+1)"
+                   py="data.Position.Y + 50 +((height-50)/(data.OutputProperties.length + 1))*($index+1)"
                    property="property"></connector>
 
-        <rect ng-width="width" ng-height="height"
-              ng-x="data.Position.X"
+        <rect ng-width="width-10" ng-height="height"
+              ng-x="data.Position.X+5"
               ng-y="data.Position.Y"
               pan-start="dragStart($event)"
               pan="drag($event)"

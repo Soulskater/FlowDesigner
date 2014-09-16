@@ -14,8 +14,8 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Hammer.Directive', 'Common.Dir
         succeeded: 'succeeded'
     })
     .constant("direction", {
-        notrun: 'input',
-        running: 'output'
+        input: 'input',
+        output: 'output'
     })
     .directive('designer', ["$timeout", function ($timeout) {
         return{

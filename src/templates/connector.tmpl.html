@@ -1,21 +1,37 @@
 <svg>
     <g>
-        <circle r="4" class="connector string" ng-cx="x" ng-cy="y">
+        <circle r="5" class="connector string" ng-cx="x" ng-cy="y" pan="drag($event)" pan-start="dragStart($event)">
             <title>{{property.HintText}}</title>
         </circle>
-        <line class="connector string"
-              ng-if="dragging"
-              ng-x1="x" ng-y1="y"
-              ng-x2="currentPosition.x" ng-y2="currentPosition.y"/>
-        <foreignObject ng-if="property.Direction === 'input'" ng-x="x+5" ng-y="y-10" width="100" height="20">
-            <div class="text-space s left font-xs text-left property-name" title="{{property.LabelText}}">
-                {{property.LabelText}}
-            </div>
-        </foreignObject>
-        <foreignObject ng-if="property.Direction === 'output'" ng-x="x-105" ng-y="y-10" width="100" height="20">
-            <div class="text-space s right font-xs text-right property-name" title="{{property.LabelText}}">
-                {{property.LabelText}}
-            </div>
-        </foreignObject>
+
+        <!--Input property-->
+        <g ng-if="property.Direction === $direction.input">
+            <!--Property reference-->
+            <line ng-if="hasReference()"
+                  class="connector string"
+                  ng-x1="x" ng-y1="y"
+                  ng-x2="currentPosition.x" ng-y2="currentPosition.y"/>
+
+            <!--Input property name-->
+            <foreignObject ng-x="x+5" ng-y="y-10" width="100" height="20">
+                <div class="text-space s left font-xs text-left property-name" title="{{property.LabelText}}">
+                    {{property.LabelText}}
+                </div>
+            </foreignObject>
+        </g>
+        <!--Output property-->
+        <g ng-if="property.Direction === $direction.output">
+            <!--Property references-->
+            <line ng-repeat="reference in property.References"
+                  class="connector string"
+                  ng-x1="x" ng-y1="y"
+                  ng-x2="reference.x" ng-y2="reference.y"/>
+
+            <foreignObject ng-x="x-105" ng-y="y-10" width="100" height="20">
+                <div class="text-space s right font-xs text-right property-name" title="{{property.LabelText}}">
+                    {{property.LabelText}}
+                </div>
+            </foreignObject>
+        </g>
     </g>
 </svg>

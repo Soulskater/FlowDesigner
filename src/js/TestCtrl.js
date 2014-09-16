@@ -39,6 +39,61 @@ angular.module('TestModule', ['FlowDesigner'])
                         "Value": null,
                         "Reference": { "Key": null, "Value": null },
                         "Direction": 'input'
+                    },
+                    {
+                        "PropertyName": "Number3",
+                        "LabelText": "Number 2",
+                        "HintText": "The second number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference": { "Key": null, "Value": null },
+                        "Direction": 'input'
+                    },
+                    {
+                        "PropertyName": "Number4",
+                        "LabelText": "Number 2",
+                        "HintText": "The second number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference": { "Key": null, "Value": null },
+                        "Direction": 'input'
+                    },
+                    {
+                        "PropertyName": "Number5",
+                        "LabelText": "Number 2",
+                        "HintText": "The second number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference": { "Key": null, "Value": null },
+                        "Direction": 'input'
+                    },
+                    {
+                        "PropertyName": "Number6",
+                        "LabelText": "Number 2",
+                        "HintText": "The second number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference": { "Key": null, "Value": null },
+                        "Direction": 'input'
+                    },
+                    {
+                        "PropertyName": "Number7",
+                        "LabelText": "Number 2",
+                        "HintText": "The second number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference": { "Key": null, "Value": null },
+                        "Direction": 'input'
                     }
                 ],
                 OutputProperties: [
@@ -49,7 +104,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "References": null,
                         "Direction": 'output'
                     }
                 ],

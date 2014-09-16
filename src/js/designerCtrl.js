@@ -39,7 +39,7 @@ angular.module('FlowDesigner')
         //region Zooming
 
         $scope.onMouseWheel = function (event) {
-            var step = 0.4;
+            var step = 0.1;
 
             if (event.deltaY === -1) {
                 if ($scope.scale.x - step <= 0 || $scope.scale.y - step <= 0) {
