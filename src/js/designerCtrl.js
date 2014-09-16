@@ -18,6 +18,15 @@ angular.module('FlowDesigner')
             height: 0
         };
         $scope.moving = false;
+
+        //region Controller functions
+
+        this.getScale = function () {
+            return $scope.scale;
+        };
+
+        //endregion Controller functions
+
         //region Designer item handling
 
         this.removeItem = function (item) {
@@ -42,6 +51,9 @@ angular.module('FlowDesigner')
             if (event.deltaY === 1) {
                 $scope.scale.x += step;
                 $scope.scale.y += step;
+
+                //$scope.viewBox.x += event.clientX - ($scope.viewBox.width / 2);
+                //$scope.viewBox.y += event.clientY - ($scope.viewBox.height / 2);
             }
         };
 
@@ -67,8 +79,8 @@ angular.module('FlowDesigner')
         $scope.move = function ($event) {
             var x = $event.clientX;
             var y = $event.clientY;
-            $scope.viewBox.x -= x - moveX;
-            $scope.viewBox.y -= y - moveY;
+            $scope.viewBox.x -= (x - moveX) * (1 / $scope.scale.x);
+            $scope.viewBox.y -= (y - moveY) * (1 / $scope.scale.y);
             moveX = x;
             moveY = y;
         };
