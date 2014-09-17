@@ -2,7 +2,7 @@
  * Created by gmeszaros on 9/9/2014.
  */
 angular.module('FlowDesigner')
-    .controller("designerCtrl", ['$scope', function ($scope) {
+    .controller("designerCtrl", ['$scope', 'direction', function ($scope, $direction) {
         $scope.size = {
             width: 0,
             height: 0
@@ -23,6 +23,28 @@ angular.module('FlowDesigner')
 
         this.getScale = function () {
             return $scope.scale;
+        };
+
+        var newReference;
+        var addReference = function (targetProperty, reference) {
+            if (targetProperty.Direction === $direction.input) {
+                targetProperty.Reference = reference;
+            }
+            else {
+                targetProperty.References.push(reference);
+            }
+            reference.x = targetProperty.x;
+            reference.y = targetProperty.y;
+        };
+        this.startReferenceAdd = function (reference) {
+            newReference = reference;
+        };
+        this.endReferenceAdd = function (targetProperty) {
+            if (!newReference) {
+                return;
+            }
+            addReference(targetProperty, newReference);
+            newReference = null;
         };
 
         //endregion Controller functions

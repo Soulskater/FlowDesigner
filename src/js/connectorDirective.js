@@ -16,6 +16,7 @@ angular.module('FlowDesigner')
             },
             link: function ($scope, element, attrs, designerCtrl) {
                 $scope.$direction = $direction;
+                $scope.designer = designerCtrl;
                 $scope.setStyle = function () {
                     return {
                         string: $scope.property.PropertyValueType === $types.string,
@@ -26,29 +27,43 @@ angular.module('FlowDesigner')
                 };
                 $scope.hasReference = function () {
                     if ($scope.property.Direction === $direction.input) {
-                        return $scope.property.Reference.Key !== null;
+                        return $scope.property.Reference !== null;
                     } else {
-                        return $scope.property.References !== null;
+                        return $scope.property.References.length !== 0;
                     }
                 };
+                $scope.selectedReference = null;
                 $scope.drag = function ($event) {
-                    linq($scope.property.References).forEach(function (reference) {
-                        if (reference.State === 'new') {
-                            reference.x = $event.clientX;
-                            reference.y = $event.clientY;
-                        }
-                    });
+                    $scope.selectedReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x);
+                    $scope.selectedReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y);
                     $event.stopPropagation();
                 };
                 $scope.dragStart = function ($event) {
-                    if (!$scope.property.References) {
-                        $scope.property.References = [];
+
+                    var reference = {
+                        TaskId: "1bef54f6-1f30-4422-a5ec-a14ec946e2ce",
+                        ReferencedProperty: "Email",
+                        x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x),
+                        y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y)
+                    };
+                    $scope.designer.startReferenceAdd(reference);
+                    $scope.property.References.push(reference);
+                    $scope.selectedReference = reference;
+                    $event.stopPropagation();
+                };
+                $scope.dragCancel = function ($event) {
+                    if ($scope.property.Direction === $direction.input) {
+                        $scope.property.Reference = null;
                     }
-                    $scope.property.References.push({
-                        Key: "referenced prop",
-                        Value: "Valami",
-                        State: "new"
-                    });
+                    else {
+                        linq($scope.property.References).remove($scope.selectedReference);
+                    }
+                    $scope.selectedReference = null;
+                };
+                $scope.dragEnd = function ($event) {
+                    $scope.designer.endReferenceAdd($scope.property);
+                    $scope.selectedReference = null;
+
                     $event.stopPropagation();
                 };
 

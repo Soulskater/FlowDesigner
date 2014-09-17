@@ -26,7 +26,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -37,7 +37,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -48,7 +48,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -59,7 +59,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -70,7 +70,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -81,7 +81,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     },
                     {
@@ -92,7 +92,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "Reference": { "Key": null, "Value": null },
+                        "Reference": null,
                         "Direction": 'input'
                     }
                 ],
@@ -104,14 +104,20 @@ angular.module('TestModule', ['FlowDesigner'])
                         "DefaultValue": "10",
                         "PropertyValueType": "Number",
                         "Value": null,
-                        "References": null,
+                        "References": [],
+                        /*"References": [
+                            {
+                                TaskId: "1bef54f6-1f30-4422-a5ec-a14ec946e2ce",
+                                ReferencedProperty: "Number1"
+                            }
+                        ],*/
                         "Direction": 'output'
                     }
                 ],
                 HelpText: "Add numbers"
             },
             {
-                Id: "e2316215-708e-419a-8810-06447e4a23b8",
+                Id: "1bef54f6-1f30-4422-a5ec-a14ec946e2ce",
                 UserGivenDisplayName: null,
                 Position: {
                     X: 309,
@@ -123,8 +129,35 @@ angular.module('TestModule', ['FlowDesigner'])
                 ],
                 DotNetType: "",
                 ContainerAssembly: "",
-                InputProperties: [],
-                OutputProperties: [],
+                InputProperties: [
+                    {
+                        "PropertyName": "Number1",
+                        "LabelText": "Number 1",
+                        "HintText": "The first number to add",
+                        "Required": true,
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "Reference":null,
+                       /* "Reference": {
+                            TaskId: "e4931215-708e-419a-8810-06447e4a23b8",
+                            ReferencedProperty: "Result"
+                        },*/
+                        "Direction": 'input'
+                    }
+                ],
+                OutputProperties: [
+                    {
+                        "PropertyName": "Result",
+                        "LabelText": "Result",
+                        "HintText": "The result number",
+                        "DefaultValue": "10",
+                        "PropertyValueType": "Number",
+                        "Value": null,
+                        "References": [],
+                        "Direction": 'output'
+                    }
+                ],
                 HelpText: ""
             }
         ];
