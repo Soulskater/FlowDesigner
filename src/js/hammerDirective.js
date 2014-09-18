@@ -60,15 +60,15 @@ angular.module('Hammer.Directive', [])
                                 $scope.$eval(attrs.pan, { $event: event });
                             });
                         });
+                        $(document).bind('mouseup', function (event) {
+                            $scope.$apply(function () {
+                                $scope.$eval(attrs.panEnd, { $event: event });
+                                $(document).unbind('mousemove');
+                                $(document).unbind('mouseup');
+                            });
+                        });
                     });
                 });
-                $(document).bind('mouseup', function (event) {
-                    $scope.$apply(function () {
-                        $scope.$eval(attrs.panEnd, { $event: event });
-                        $(document).unbind('mousemove');
-                    });
-                });
-
                 //
                 //Disposing
                 $scope.$on('$destroy', function () {

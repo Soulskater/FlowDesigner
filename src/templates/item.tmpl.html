@@ -29,12 +29,12 @@
         <!--Input properties-->
         <connector ng-repeat="property in data.InputProperties" px="data.Position.X"
                    py="data.Position.Y + 50 +((height-50)/(data.InputProperties.length + 1))*($index+1)"
-                   itemData="data"
+                   item-data="data"
                    property="property"></connector>
         <!--Output properties-->
         <connector ng-repeat="property in data.OutputProperties" px="data.Position.X + width"
                    py="data.Position.Y + 50 +((height-50)/(data.OutputProperties.length + 1))*($index+1)"
-                   itemData="data"
+                   item-data="data"
                    property="property"></connector>
 
         <rect ng-width="width-10" ng-height="height"

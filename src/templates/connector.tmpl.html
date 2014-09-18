@@ -6,15 +6,14 @@
                 data-property-name="{{property.PropertyName}}">
             <title>{{property.HintText}}</title>
         </circle>
+        <!--New reference-->
+        <line ng-if="newReference"
+              class="connector string"
+              ng-x1="x" ng-y1="y"
+              ng-x2="newReference.x" ng-y2="newReference.y"/>
 
         <!--Input property-->
         <g ng-if="property.Direction === $direction.input">
-            <!--Property reference-->
-            <line ng-if="hasReference() && property.Reference.render === true"
-                  class="connector string"
-                  ng-x1="x" ng-y1="y"
-                  ng-x2="property.Reference.x" ng-y2="property.Reference.y"/>
-
             <!--Input property name-->
             <foreignObject ng-x="x+5" ng-y="y-10" width="100" height="20">
                 <div class="text-space s left font-xs text-left property-name" title="{{property.LabelText}}">
@@ -25,7 +24,7 @@
         <!--Output property-->
         <g ng-if="property.Direction === $direction.output">
             <!--Property references-->
-            <line ng-repeat="reference in property.References|filter:{ render: true }"
+            <line ng-repeat="reference in property.References"
                   class="connector string"
                   ng-x1="x" ng-y1="y"
                   ng-x2="reference.x" ng-y2="reference.y"/>

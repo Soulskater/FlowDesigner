@@ -40,23 +40,22 @@ angular.module('FlowDesigner')
                 };
                 $scope.dragStart = function ($event) {
                     $scope.newReference = {
-                        TaskId: null,
-                        ReferencedProperty: null,
                         x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x),
                         y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y)
                     };
                     $event.stopPropagation();
                 };
                 $scope.dragEnd = function ($event) {
-                    var itemId = $($event.target).attr('data-item-id');
-                    var propertyName = $($event.target).attr('data-property-name');
+                    var itemId = $($event.target)[0].getAttribute('data-item-id');
+                    var propertyName = $($event.target)[0].getAttribute('data-property-name');
                     if (!itemId || !propertyName) {
-                       removeReference($scope.newReference);
+                        $scope.newReference = null;
+                        return;
                     }
                     var refItem = $scope.designer.getItem(itemId);
                     var refProp = $scope.designer.getProperty(refItem, propertyName);
-                    addTargetReference(refProp);
-
+                    addReferences($scope.property, refProp, refItem);
+                    $scope.newReference = null;
                     $event.stopPropagation();
                 };
 
@@ -69,17 +68,29 @@ angular.module('FlowDesigner')
                     }
                 };
 
-                var addTargetReference = function (targetProperty) {
-                    if (targetProperty.Direction === $direction.input) {
+                var addReferences = function (sourceProperty, targetProperty, targetItem) {
+                    if (sourceProperty.Direction === $direction.input) {
+                        sourceProperty.Reference = {
+                            TaskId: targetItem.Id,
+                            ReferencedProperty: targetProperty.PropertyName
+                        };
+                        targetProperty.References.push({
+                            TaskId: $scope.itemData.Id,
+                            ReferencedProperty: $scope.property.PropertyName,
+                            x: sourceProperty.x,
+                            y: sourceProperty.y
+                        });
+                    }
+                    else {
                         targetProperty.Reference = {
                             TaskId: $scope.itemData.Id,
                             ReferencedProperty: $scope.property.PropertyName
                         };
-                    }
-                    else {
-                        targetProperty.References.push({
-                            TaskId: $scope.itemData.Id,
-                            ReferencedProperty: $scope.property.PropertyName
+                        sourceProperty.References.push({
+                            TaskId: targetItem.Id,
+                            ReferencedProperty: targetProperty.PropertyName,
+                            x: targetProperty.x,
+                            y: targetProperty.y
                         });
                     }
                 };
