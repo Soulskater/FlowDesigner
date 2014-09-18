@@ -48,25 +48,23 @@ angular.module('Hammer.Directive', [])
             restrict: 'A',
             replace: true,
             link: function ($scope, element, attrs) {
-                var refObj = null;
                 element.hammer({
                 }).bind('mousedown', function (event) {
                     if (event.button !== 0) {
                         return;
                     }
                     $scope.$apply(function () {
-                        refObj = $scope.$eval(attrs.panStart, { $event: event});
+                        $scope.$eval(attrs.panStart, { $event: event});
                         $(document).bind('mousemove', function (event) {
                             $scope.$apply(function () {
-                                $scope.$eval(attrs.pan, { $event: event, refObj: refObj});
+                                $scope.$eval(attrs.pan, { $event: event });
                             });
                         });
                     });
                 });
                 $(document).bind('mouseup', function (event) {
                     $scope.$apply(function () {
-                        $scope.$eval(attrs.panEnd, { $event: event, refObj: refObj});
-                        refObj = null;
+                        $scope.$eval(attrs.panEnd, { $event: event });
                         $(document).unbind('mousemove');
                     });
                 });

@@ -1,13 +1,16 @@
 <svg>
     <g>
-        <circle r="5" class="connector string" ng-cx="x" ng-cy="y" pan="drag($event, refObj)" pan-start="dragStart($event, refObj)" pan-end="dragCancel($event, refObj)" ng-mouseup="dragEnd($event)">
+        <circle r="5" class="connector string" ng-cx="x" ng-cy="y" pan="drag($event)"
+                pan-start="dragStart($event)" pan-end="dragEnd($event)"
+                data-item-id="{{itemData.Id}}"
+                data-property-name="{{property.PropertyName}}">
             <title>{{property.HintText}}</title>
         </circle>
 
         <!--Input property-->
         <g ng-if="property.Direction === $direction.input">
             <!--Property reference-->
-            <line ng-if="hasReference()"
+            <line ng-if="hasReference() && property.Reference.render === true"
                   class="connector string"
                   ng-x1="x" ng-y1="y"
                   ng-x2="property.Reference.x" ng-y2="property.Reference.y"/>
@@ -22,7 +25,7 @@
         <!--Output property-->
         <g ng-if="property.Direction === $direction.output">
             <!--Property references-->
-            <line ng-repeat="reference in property.References"
+            <line ng-repeat="reference in property.References|filter:{ render: true }"
                   class="connector string"
                   ng-x1="x" ng-y1="y"
                   ng-x2="reference.x" ng-y2="reference.y"/>

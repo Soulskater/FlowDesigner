@@ -1,17 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/templates/item.tmpl.html" line="50" />
+    <bookmark url="file://$PROJECT_DIR$/src/templates/item.tmpl.html" line="52" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af478c9-155c-4053-847c-d582bdca1cf1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/TestCtrl.js" afterPath="$PROJECT_DIR$/src/js/TestCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/common.css" afterPath="$PROJECT_DIR$/src/css/common.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/connector.tmpl.html" afterPath="$PROJECT_DIR$/src/templates/connector.tmpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/connectorDirective.js" afterPath="$PROJECT_DIR$/src/js/connectorDirective.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/designerCtrl.js" afterPath="$PROJECT_DIR$/src/js/designerCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/flowDesigner.css" afterPath="$PROJECT_DIR$/src/css/flowDesigner.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/hammerDirective.js" afterPath="$PROJECT_DIR$/src/js/hammerDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/item.tmpl.html" afterPath="$PROJECT_DIR$/src/templates/item.tmpl.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="FlowDesigner.iws" />
@@ -75,15 +73,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designerCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="designerCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5629139" vertical-offset="102" max-vertical-offset="1190">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1156">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
-                <element signature="e#1388#1419#0" expanded="false" />
-                <element signature="e#1621#1637#0" expanded="false" />
-                <element signature="e#2671#2695#0" expanded="false" />
+                <element signature="e#539#583#0" expanded="false" />
+                <element signature="e#1282#1331#0" expanded="false" />
+                <element signature="e#1390#1561#0" expanded="false" />
+                <element signature="e#1614#1645#0" expanded="false" />
+                <element signature="e#1847#1863#0" expanded="false" />
+                <element signature="e#2897#2921#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -92,8 +93,8 @@
       <file leaf-file-name="hammerDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1496">
-              <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1462">
+              <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -102,23 +103,22 @@
       <file leaf-file-name="connectorDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/connectorDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-              <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1377">
+              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
               <folding>
                 <element signature="e#681#1119#0" expanded="false" />
-                <element signature="e#1553#1836#0" expanded="false" />
-                <element signature="e#1891#2504#0" expanded="false" />
-                <element signature="e#2560#2926#0" expanded="false" />
+                <element signature="e#1171#1454#0" expanded="false" />
+                <element signature="e#1548#1821#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="connector.tmpl.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="connector.tmpl.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.3284091" vertical-offset="0" max-vertical-offset="880">
+              <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -127,8 +127,8 @@
       <file leaf-file-name="item.tmpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.0" vertical-offset="204" max-vertical-offset="1122">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+            <state vertical-scroll-proportion="-16.346153" vertical-offset="204" max-vertical-offset="1156">
+              <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -176,14 +176,14 @@
         <option value="$PROJECT_DIR$/src/templates/designer.tmpl.html" />
         <option value="$PROJECT_DIR$/src/css/common.less" />
         <option value="$PROJECT_DIR$/src/css/shared.less" />
-        <option value="$PROJECT_DIR$/src/templates/item.tmpl.html" />
         <option value="$PROJECT_DIR$/src/css/flowDesigner.less" />
         <option value="$PROJECT_DIR$/src/js/designerDirective.js" />
-        <option value="$PROJECT_DIR$/src/js/hammerDirective.js" />
         <option value="$PROJECT_DIR$/src/js/TestCtrl.js" />
-        <option value="$PROJECT_DIR$/src/templates/connector.tmpl.html" />
-        <option value="$PROJECT_DIR$/src/js/connectorDirective.js" />
+        <option value="$PROJECT_DIR$/src/templates/item.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/js/hammerDirective.js" />
         <option value="$PROJECT_DIR$/src/js/designerCtrl.js" />
+        <option value="$PROJECT_DIR$/src/js/connectorDirective.js" />
+        <option value="$PROJECT_DIR$/src/templates/connector.tmpl.html" />
       </list>
     </option>
   </component>
@@ -490,7 +490,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="5" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -554,9 +554,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="901">
           <caret line="15" column="23" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
           <folding>
-            <element signature="e#1388#1419#0" expanded="false" />
-            <element signature="e#1621#1637#0" expanded="false" />
-            <element signature="e#2671#2695#0" expanded="false" />
+            <element signature="e#539#583#0" expanded="false" />
+            <element signature="e#1282#1331#0" expanded="false" />
+            <element signature="e#1390#1561#0" expanded="false" />
+            <element signature="e#1614#1645#0" expanded="false" />
+            <element signature="e#1847#1863#0" expanded="false" />
+            <element signature="e#2897#2921#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -836,27 +839,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
+    <entry file="file://$PROJECT_DIR$/src/js/TestCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="573" max-vertical-offset="1496">
-          <caret line="66" column="38" selection-start-line="66" selection-start-column="38" selection-end-line="66" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1474" max-vertical-offset="2873">
+          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.0" vertical-offset="204" max-vertical-offset="1122">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+        <state vertical-scroll-proportion="-16.346153" vertical-offset="204" max-vertical-offset="1156">
+          <caret line="37" column="34" selection-start-line="37" selection-start-column="34" selection-end-line="37" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/TestCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1474" max-vertical-offset="2873">
-          <caret line="110" column="31" selection-start-line="110" selection-start-column="31" selection-end-line="110" selection-end-column="31" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="556" max-vertical-offset="1462">
+          <caret line="56" column="24" selection-start-line="56" selection-start-column="24" selection-end-line="56" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1156">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="e#539#583#0" expanded="false" />
+            <element signature="e#1282#1331#0" expanded="false" />
+            <element signature="e#1390#1561#0" expanded="false" />
+            <element signature="e#1614#1645#0" expanded="false" />
+            <element signature="e#1847#1863#0" expanded="false" />
+            <element signature="e#2897#2921#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,36 +886,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="714">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/connectorDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="64" column="52" selection-start-line="64" selection-start-column="52" selection-end-line="64" selection-end-column="52" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="29" max-vertical-offset="1377">
+          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
           <folding>
             <element signature="e#681#1119#0" expanded="false" />
-            <element signature="e#1553#1836#0" expanded="false" />
-            <element signature="e#1891#2504#0" expanded="false" />
-            <element signature="e#2560#2926#0" expanded="false" />
+            <element signature="e#1171#1454#0" expanded="false" />
+            <element signature="e#1548#1821#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
+    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5629139" vertical-offset="102" max-vertical-offset="1190">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding>
-            <element signature="e#1388#1419#0" expanded="false" />
-            <element signature="e#1621#1637#0" expanded="false" />
-            <element signature="e#2671#2695#0" expanded="false" />
-          </folding>
+        <state vertical-scroll-proportion="0.3284091" vertical-offset="0" max-vertical-offset="880">
+          <caret line="17" column="38" selection-start-line="17" selection-start-column="38" selection-end-line="17" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>

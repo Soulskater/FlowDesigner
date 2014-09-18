@@ -25,17 +25,25 @@ angular.module('FlowDesigner')
             return $scope.scale;
         };
 
-        var newReference;
-        var addReference = function (targetProperty, reference) {
-            if (targetProperty.Direction === $direction.input) {
-                targetProperty.Reference = reference;
-            }
-            else {
-                targetProperty.References.push(reference);
-            }
-            reference.x = targetProperty.x;
-            reference.y = targetProperty.y;
+        this.getItem = function (itemId) {
+            return linq($scope.items).first(function (item) {
+                return item.Id === itemId;
+            });
         };
+
+        this.getProperty = function (item, propertyName) {
+            var prop = linq(item.InputProperties).firstOrDefault(function (property) {
+                return property.PropertyName === propertyName;
+            });
+            if(prop){
+                return prop;
+            }
+
+            return linq(item.OutputProperties).firstOrDefault(function (property) {
+                return property.PropertyName === propertyName;
+            });
+        };
+
         this.startReferenceAdd = function (reference) {
             newReference = reference;
         };

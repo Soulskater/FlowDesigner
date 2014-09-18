@@ -32,39 +32,56 @@ angular.module('FlowDesigner')
                         return $scope.property.References.length !== 0;
                     }
                 };
-                $scope.selectedReference = null;
+                $scope.newReference = null;
                 $scope.drag = function ($event) {
-                    $scope.selectedReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x);
-                    $scope.selectedReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y);
+                    $scope.newReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x);
+                    $scope.newReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y);
                     $event.stopPropagation();
                 };
                 $scope.dragStart = function ($event) {
-
-                    var reference = {
-                        TaskId: "1bef54f6-1f30-4422-a5ec-a14ec946e2ce",
-                        ReferencedProperty: "Email",
+                    $scope.newReference = {
+                        TaskId: null,
+                        ReferencedProperty: null,
                         x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x),
                         y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y)
                     };
-                    $scope.designer.startReferenceAdd(reference);
-                    $scope.property.References.push(reference);
-                    $scope.selectedReference = reference;
                     $event.stopPropagation();
                 };
-                $scope.dragCancel = function ($event) {
+                $scope.dragEnd = function ($event) {
+                    var itemId = $($event.target).attr('data-item-id');
+                    var propertyName = $($event.target).attr('data-property-name');
+                    if (!itemId || !propertyName) {
+                       removeReference($scope.newReference);
+                    }
+                    var refItem = $scope.designer.getItem(itemId);
+                    var refProp = $scope.designer.getProperty(refItem, propertyName);
+                    addTargetReference(refProp);
+
+                    $event.stopPropagation();
+                };
+
+                var removeReference = function (reference) {
                     if ($scope.property.Direction === $direction.input) {
                         $scope.property.Reference = null;
                     }
                     else {
-                        linq($scope.property.References).remove($scope.selectedReference);
+                        $scope.property.References.remove(reference);
                     }
-                    $scope.selectedReference = null;
                 };
-                $scope.dragEnd = function ($event) {
-                    $scope.designer.endReferenceAdd($scope.property);
-                    $scope.selectedReference = null;
 
-                    $event.stopPropagation();
+                var addTargetReference = function (targetProperty) {
+                    if (targetProperty.Direction === $direction.input) {
+                        targetProperty.Reference = {
+                            TaskId: $scope.itemData.Id,
+                            ReferencedProperty: $scope.property.PropertyName
+                        };
+                    }
+                    else {
+                        targetProperty.References.push({
+                            TaskId: $scope.itemData.Id,
+                            ReferencedProperty: $scope.property.PropertyName
+                        });
+                    }
                 };
 
                 //
