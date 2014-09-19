@@ -3,6 +3,7 @@
  */
 angular.module('FlowDesigner')
     .controller("designerCtrl", ['$scope', 'direction', function ($scope, $direction) {
+        var self = this;
         $scope.size = {
             width: 0,
             height: 0
@@ -35,7 +36,7 @@ angular.module('FlowDesigner')
             var prop = linq(item.InputProperties).firstOrDefault(function (property) {
                 return property.PropertyName === propertyName;
             });
-            if(prop){
+            if (prop) {
                 return prop;
             }
 
@@ -44,16 +45,13 @@ angular.module('FlowDesigner')
             });
         };
 
-        this.startReferenceAdd = function (reference) {
-            newReference = reference;
+        this.getReferencedProperty = function (reference) {
+            var item = self.getItem(reference.TaskId);
+            var prop = self.getProperty(item, reference.ReferencedProperty);
+
+            return prop;
         };
-        this.endReferenceAdd = function (targetProperty) {
-            if (!newReference) {
-                return;
-            }
-            addReference(targetProperty, newReference);
-            newReference = null;
-        };
+
 
         //endregion Controller functions
 

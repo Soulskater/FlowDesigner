@@ -27,13 +27,15 @@
         </foreignObject>
 
         <!--Input properties-->
-        <connector ng-repeat="property in data.InputProperties" px="data.Position.X"
-                   py="data.Position.Y + 50 +((height-50)/(data.InputProperties.length + 1))*($index+1)"
+        <connector ng-repeat="property in data.InputProperties"
+                   index="$index"
+                   offset="40"
                    item-data="data"
                    property="property"></connector>
         <!--Output properties-->
-        <connector ng-repeat="property in data.OutputProperties" px="data.Position.X + width"
-                   py="data.Position.Y + 50 +((height-50)/(data.OutputProperties.length + 1))*($index+1)"
+        <connector ng-repeat="property in data.OutputProperties"
+                   index="$index"
+                   offset="40"
                    item-data="data"
                    property="property"></connector>
 

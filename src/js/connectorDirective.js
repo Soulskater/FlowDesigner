@@ -11,8 +11,8 @@ angular.module('FlowDesigner')
             scope: {
                 itemData: '=',
                 property: '=',
-                x: '=px',
-                y: '=py'
+                index: '=',
+                offset: '='
             },
             link: function ($scope, element, attrs, designerCtrl) {
                 $scope.$direction = $direction;
@@ -58,6 +58,13 @@ angular.module('FlowDesigner')
                     $scope.newReference = null;
                     $event.stopPropagation();
                 };
+                $scope.property.calculatePosition = function () {
+                    var props = $scope.property.Direction === $direction.input ? $scope.itemData.InputProperties : $scope.itemData.OutputProperties;
+                    return{
+                        x: $scope.property.Direction === $direction.input ? $scope.itemData.Position.X : $scope.itemData.Position.X + 250,
+                        y: $scope.itemData.Position.Y + $scope.offset + ((170 - $scope.offset) / (props.length + 1)) * ($scope.index + 1)
+                    };
+                };
 
                 var removeReference = function (reference) {
                     if ($scope.property.Direction === $direction.input) {
@@ -76,9 +83,7 @@ angular.module('FlowDesigner')
                         };
                         targetProperty.References.push({
                             TaskId: $scope.itemData.Id,
-                            ReferencedProperty: $scope.property.PropertyName,
-                            x: sourceProperty.x,
-                            y: sourceProperty.y
+                            ReferencedProperty: $scope.property.PropertyName
                         });
                     }
                     else {
@@ -88,9 +93,7 @@ angular.module('FlowDesigner')
                         };
                         sourceProperty.References.push({
                             TaskId: targetItem.Id,
-                            ReferencedProperty: targetProperty.PropertyName,
-                            x: targetProperty.x,
-                            y: targetProperty.y
+                            ReferencedProperty: targetProperty.PropertyName
                         });
                     }
                 };
