@@ -65,14 +65,19 @@ angular.module('FlowDesigner')
                         y: $scope.itemData.Position.Y + $scope.offset + ((170 - $scope.offset) / (props.length + 1)) * ($scope.index + 1)
                     };
                 };
+                $scope.property.removeReference = function (itemId, referencedProperty) {
+                    var refItem = $scope.designer.getItem(itemId);
+                    var refProp = $scope.designer.getProperty(refItem, referencedProperty);
 
-                var removeReference = function (reference) {
                     if ($scope.property.Direction === $direction.input) {
                         $scope.property.Reference = null;
                     }
                     else {
-                        $scope.property.References.remove(reference);
+                        linq($scope.property.References).remove(function (ref) {
+                            return ref.TaskId === itemId && ref.ReferencedProperty === referencedProperty;
+                        });
                     }
+                    refProp.removeReference($scope.itemData.Id, $scope.property.PropertyName);
                 };
 
                 var addReferences = function (sourceProperty, targetProperty, targetItem) {

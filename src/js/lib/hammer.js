@@ -160,7 +160,7 @@ function ifUndefined(val1, val2) {
  */
 function addEventListeners(target, types, handler) {
     each(splitStr(types), function(type) {
-        target.addEventListener(type, handler, false);
+        target.addEventListener(type, handler, true);
     });
 }
 

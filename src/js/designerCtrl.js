@@ -83,6 +83,7 @@ angular.module('FlowDesigner')
                 //$scope.viewBox.x += event.clientX - ($scope.viewBox.width / 2);
                 //$scope.viewBox.y += event.clientY - ($scope.viewBox.height / 2);
             }
+            event.preventDefault();
         };
 
         function _updateViewBoxSize() {

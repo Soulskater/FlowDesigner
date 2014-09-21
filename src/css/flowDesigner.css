@@ -41,6 +41,9 @@
 .connector:hover {
   stroke-width: 3px;
 }
+.connector.no-value {
+  fill: transparent;
+}
 /* region Property Types */
 .string {
   fill: #db4f00;

@@ -48,8 +48,7 @@ angular.module('Hammer.Directive', [])
             restrict: 'A',
             replace: true,
             link: function ($scope, element, attrs) {
-                element.hammer({
-                }).bind('mousedown', function (event) {
+                element.bind('mousedown', function (event) {
                     if (event.button !== 0) {
                         return;
                     }
