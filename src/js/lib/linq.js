@@ -2,7 +2,6 @@
     "use strict";
 
     var args = arguments;
-    //var array = [];
 
     _init();
     function _init() {
@@ -111,8 +110,21 @@
             var match = array.filter(f);
             return match[match.length - 1];
         },
-        remove: function (item) {
-            array.splice(array.indexOf(item), 1);
+        //
+        //Remove the given item in parameter if it's exits
+        remove: function (itemOrFn) {
+            if (typeof itemOrFn === 'function') {
+                linq(array).where(itemOrFn).forEach(function (item) {
+                    array.splice(array.indexOf(item), 1);
+                });
+            } else {
+                array.splice(array.indexOf(itemOrFn), 1);
+            }
+        },
+        //
+        //Clear the array
+        clear: function () {
+            array.length = 0;
         },
         //
         //Iterates throught on the array, and returns true if any items matches with the condition

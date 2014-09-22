@@ -34,14 +34,14 @@ angular.module('FlowDesigner')
                 };
                 $scope.newReference = null;
                 $scope.drag = function ($event) {
-                    $scope.newReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x);
-                    $scope.newReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y);
+                    $scope.newReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x) + $scope.designer.getOffset().x;
+                    $scope.newReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y) + $scope.designer.getOffset().y;
                     $event.stopPropagation();
                 };
                 $scope.dragStart = function ($event) {
                     $scope.newReference = {
-                        x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x),
-                        y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y)
+                        x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x) + $scope.designer.getOffset().x,
+                        y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y) + $scope.designer.getOffset().y
                     };
                     $event.stopPropagation();
                 };
@@ -68,11 +68,16 @@ angular.module('FlowDesigner')
                 $scope.property.removeReference = function (itemId, referencedProperty) {
                     var refItem = $scope.designer.getItem(itemId);
                     var refProp = $scope.designer.getProperty(refItem, referencedProperty);
-
                     if ($scope.property.Direction === $direction.input) {
+                        if ($scope.property.Reference === null) {
+                            return;
+                        }
                         $scope.property.Reference = null;
                     }
                     else {
+                        if ($scope.property.References.length === 0) {
+                            return;
+                        }
                         linq($scope.property.References).remove(function (ref) {
                             return ref.TaskId === itemId && ref.ReferencedProperty === referencedProperty;
                         });

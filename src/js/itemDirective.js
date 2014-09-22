@@ -31,7 +31,9 @@ angular.module('FlowDesigner')
             templateUrl: 'templates/item.tmpl.html',
             transclude: true,
             scope: {
-                data: '='
+                data: '=',
+                offsetX: '=',
+                offsetY: '='
             },
             controller: 'itemCtrl',
             link: function ($scope, element, attrs, designerCtrl) {

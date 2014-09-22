@@ -1,6 +1,6 @@
 <svg class="designer" width="100%" height="100%" auto-size ng-viewBox="viewBox" ng-mousewheel="onMouseWheel(event)" pan="move($event)" pan-start="moveStart($event)" pan-end="moveEnd($event)">
     <g ng-repeat="item in items">
-        <designer-item data="item">
+        <designer-item data="item" offset-x="viewBox.x" offset-x="viewBox.y">
             <item-title>{{item.DisplayText}}</item-title>
             <item-description>{{item.UserGivenDisplayName}}</item-description>
         </designer-item>

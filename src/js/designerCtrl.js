@@ -26,6 +26,10 @@ angular.module('FlowDesigner')
             return $scope.scale;
         };
 
+        this.getOffset = function () {
+            return { x: $scope.viewBox.x, y: $scope.viewBox.y};
+        };
+
         this.getItem = function (itemId) {
             return linq($scope.items).first(function (item) {
                 return item.Id === itemId;
@@ -58,7 +62,18 @@ angular.module('FlowDesigner')
         //region Designer item handling
 
         this.removeItem = function (item) {
-            //TODO remove references from item
+            linq(item.InputProperties).forEach(function (prop) {
+                if (prop.Reference) {
+                    prop.removeReference(prop.Reference.TaskId, prop.Reference.ReferencedProperty);
+                }
+            });
+
+            linq(item.OutputProperties).forEach(function (prop) {
+                linq(prop.References).forEach(function (reference) {
+                    prop.removeReference(reference.TaskId, reference.ReferencedProperty);
+                });
+            });
+
             linq($scope.items).remove(item);
         };
 

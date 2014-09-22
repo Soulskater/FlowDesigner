@@ -71,9 +71,7 @@ angular.module('Hammer.Directive', [])
                 //
                 //Disposing
                 $scope.$on('$destroy', function () {
-                    element.hammer().unbind('panmove');
-                    element.hammer().unbind('panstart');
-                    element.hammer().unbind('panend');
+                    element.unbind('mousedown');
                 });
             }
         };
