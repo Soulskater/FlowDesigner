@@ -42,7 +42,7 @@
   stroke-width: 3px;
 }
 .connector.no-value {
-  fill: transparent;
+  fill: #f3f3f3;
 }
 /* region Property Types */
 .string {

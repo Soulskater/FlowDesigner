@@ -1,34 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <head lang="en">
-        <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
-        <title>Flow Designer</title>
-        <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
-        <link href="css/common.css" type="text/css" rel="stylesheet">
-        <link href="css/flowDesigner.css" type="text/css" rel="stylesheet">
+<head lang="en">
+    <meta name="viewport" content="user-scalable=no, width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Flow Designer</title>
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/common.css" type="text/css" rel="stylesheet">
+    <link href="css/flowDesigner.css" type="text/css" rel="stylesheet">
 
-        <script src="js/lib/jquery-2.1.1.js" type="text/javascript"></script>
-        <script src="js/lib/jquery.mousewheel.js" type="text/javascript"></script>
-        <script src="js/lib/quo.debug.js" type="text/javascript"></script>
-        <script src="js/lib/angular.js" type="text/javascript"></script>
-        <script src="js/lib/bootstrap.js" type="text/javascript"></script>
-        <script src="js/lib/linq.js" type="text/javascript"></script>
+    <script src="js/lib/jquery-2.1.1.js" type="text/javascript"></script>
+    <script src="js/lib/jquery.mousewheel.js" type="text/javascript"></script>
+    <script src="js/lib/quo.debug.js" type="text/javascript"></script>
+    <script src="js/lib/angular.js" type="text/javascript"></script>
+    <script src="js/lib/bootstrap.js" type="text/javascript"></script>
+    <script src="js/lib/linq.js" type="text/javascript"></script>
 
-        <script src="js/hammerDirective.js"></script>
-        <script src="js/svgDirective.js"></script>
-        <script src="js/commonDirective.js"></script>
-        <script src="js/designerDirective.js"></script>
-        <script src="js/designerCtrl.js"></script>
-        <script src="js/itemDirective.js"></script>
-        <script src="js/connectorDirective.js"></script>
+    <script src="js/hammerDirective.js"></script>
+    <script src="js/svgDirective.js"></script>
+    <script src="js/commonDirective.js"></script>
+    <script src="js/designerDirective.js"></script>
+    <script src="js/designerCtrl.js"></script>
+    <script src="js/itemDirective.js"></script>
+    <script src="js/connectorDirective.js"></script>
 
-        <script src="js/TestCtrl.js"></script>
-    </head>
-    <body ng-app="TestModule">
-        <div ng-controller="TestCtrl" style="border: 2px solid #269abc;width: 1024px;height: 768px;margin: 10px">
-            <designer items="tasks">
-
-            </designer>
-        </div>
-    </body>
+    <script src="js/TestCtrl.js"></script>
+</head>
+<body ng-app="TestModule">
+<div class="font-l space m text-center">
+    Flow Designer
+</div>
+<div ng-controller="TestCtrl" style="border: 2px solid #269abc;width: 900px;height: 600px;margin: 10px;margin: auto;">
+    <designer items="tasks">
+    </designer>
+</div>
+</body>
 </html>
