@@ -8,6 +8,7 @@ angular.module('FlowDesigner')
             replace: true,
             require: '^designer',
             templateUrl: 'templates/connector.tmpl.html',
+            controller: 'connectorCtrl',
             scope: {
                 itemData: '=',
                 property: '=',
@@ -15,49 +16,10 @@ angular.module('FlowDesigner')
                 offset: '='
             },
             link: function ($scope, element, attrs, designerCtrl) {
-                $scope.$direction = $direction;
                 $scope.designer = designerCtrl;
-                $scope.setStyle = function () {
-                    return {
-                        string: $scope.property.PropertyValueType === $types.string,
-                        bool: $scope.property.PropertyValueType === $types.bool,
-                        number: $scope.property.PropertyValueType === $types.int,
-                        'no-value': !$scope.hasReference() && (!$scope.property.Value || $scope.property.Value === "")
-                    };
-                };
-                $scope.hasReference = function () {
-                    if ($scope.property.Direction === $direction.input) {
-                        return $scope.property.Reference !== null;
-                    } else {
-                        return $scope.property.References.length !== 0;
-                    }
-                };
-                $scope.newReference = null;
-                $scope.drag = function ($event) {
-                    $scope.newReference.x = ($event.clientX - 10) * (1 / $scope.designer.getScale().x) + $scope.designer.getOffset().x;
-                    $scope.newReference.y = ($event.clientY - 10) * (1 / $scope.designer.getScale().y) + $scope.designer.getOffset().y;
-                    $event.stopPropagation();
-                };
-                $scope.dragStart = function ($event) {
-                    $scope.newReference = {
-                        x: ($event.clientX - 10) * (1 / $scope.designer.getScale().x) + $scope.designer.getOffset().x,
-                        y: ($event.clientY - 10) * (1 / $scope.designer.getScale().y) + $scope.designer.getOffset().y
-                    };
-                    $event.stopPropagation();
-                };
-                $scope.dragEnd = function ($event) {
-                    var itemId = $($event.target)[0].getAttribute('data-item-id');
-                    var propertyName = $($event.target)[0].getAttribute('data-property-name');
-                    if (!itemId || !propertyName) {
-                        $scope.newReference = null;
-                        return;
-                    }
-                    var refItem = $scope.designer.getItem(itemId);
-                    var refProp = $scope.designer.getProperty(refItem, propertyName);
-                    addReferences($scope.property, refProp, refItem);
-                    $scope.newReference = null;
-                    $event.stopPropagation();
-                };
+
+                //region Add functions to property object
+
                 $scope.property.calculatePosition = function () {
                     var props = $scope.property.Direction === $direction.input ? $scope.itemData.InputProperties : $scope.itemData.OutputProperties;
                     return{
@@ -85,28 +47,7 @@ angular.module('FlowDesigner')
                     refProp.removeReference($scope.itemData.Id, $scope.property.PropertyName);
                 };
 
-                var addReferences = function (sourceProperty, targetProperty, targetItem) {
-                    if (sourceProperty.Direction === $direction.input) {
-                        sourceProperty.Reference = {
-                            TaskId: targetItem.Id,
-                            ReferencedProperty: targetProperty.PropertyName
-                        };
-                        targetProperty.References.push({
-                            TaskId: $scope.itemData.Id,
-                            ReferencedProperty: $scope.property.PropertyName
-                        });
-                    }
-                    else {
-                        targetProperty.Reference = {
-                            TaskId: $scope.itemData.Id,
-                            ReferencedProperty: $scope.property.PropertyName
-                        };
-                        sourceProperty.References.push({
-                            TaskId: targetItem.Id,
-                            ReferencedProperty: targetProperty.PropertyName
-                        });
-                    }
-                };
+                //endregion Add functions to property object
 
                 //
                 //It needs for angular, removes svg wrapper

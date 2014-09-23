@@ -34,6 +34,10 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Hammer.Directive', 'Common.Dir
                     width: element.width(),
                     height: element.height()
                 };
+                $scope.offset = {
+                    x: element.offset().left * -1,
+                    y: element.offset().top * -1
+                };
             }
         };
     }]);
