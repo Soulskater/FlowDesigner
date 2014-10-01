@@ -5,6 +5,7 @@ angular.module('FlowDesigner')
     .controller("connectorCtrl", ['$scope', 'types', 'direction', function ($scope, $types, $direction) {
         $scope.$direction = $direction;
         $scope.newReference = null;
+        $scope.selectedReference = null;
         $scope.hasReference = function () {
             if ($scope.property.Direction === $direction.input) {
                 return $scope.property.Reference !== null;
@@ -19,6 +20,10 @@ angular.module('FlowDesigner')
                 number: $scope.property.PropertyValueType === $types.int,
                 'no-value': !$scope.hasReference() && (!$scope.property.Value || $scope.property.Value === "")
             };
+        };
+        
+        $scope.selectReference = function (reference) {
+            $scope.selectedReference = reference;
         };
 
         //region Dragging new reference

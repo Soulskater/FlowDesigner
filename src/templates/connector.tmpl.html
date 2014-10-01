@@ -22,6 +22,7 @@
             <line ng-repeat="reference in property.References"
                   class="connector"
                   ng-class="setStyle()"
+                  ng-click="selectReference(reference)"
                   ng-x1="property.calculatePosition().x" ng-y1="property.calculatePosition().y"
                   ng-x2="designer.getReferencedProperty(reference).calculatePosition().x"
                   ng-y2="designer.getReferencedProperty(reference).calculatePosition().y"/>
