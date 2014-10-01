@@ -35,8 +35,8 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Hammer.Directive', 'Common.Dir
                     height: element.height()
                 };
                 $scope.offset = {
-                    x: element.offset().left * -1,
-                    y: element.offset().top * -1
+                    x: element.offset().left,
+                    y: element.offset().top
                 };
             }
         };

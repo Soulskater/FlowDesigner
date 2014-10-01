@@ -73,8 +73,8 @@ angular.module('FlowDesigner')
         };
         var setNewReferencePosition = function (x, y) {
             $scope.newReference = {
-                x: x * (1 / $scope.designer.getScale().x) + $scope.designer.getOffset().x,
-                y: y * (1 / $scope.designer.getScale().y) + $scope.designer.getOffset().y
+                x: (x - $scope.designer.getOffset().x) * (1 / $scope.designer.getScale().x) + $scope.designer.getViewBox().x,
+                y: (y - $scope.designer.getOffset().y) * (1 / $scope.designer.getScale().y) + $scope.designer.getViewBox().y
             };
         };
 

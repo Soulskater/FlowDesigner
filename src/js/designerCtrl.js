@@ -27,7 +27,11 @@ angular.module('FlowDesigner')
         };
 
         this.getOffset = function () {
-            return { x: $scope.offset.x + $scope.viewBox.x, y: $scope.offset.y + $scope.viewBox.y};
+            return { x: $scope.offset.x, y: $scope.offset.y};
+        };
+
+        this.getViewBox = function () {
+            return $scope.viewBox;
         };
 
         this.getItem = function (itemId) {
