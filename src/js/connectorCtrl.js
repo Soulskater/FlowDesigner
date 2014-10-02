@@ -21,7 +21,7 @@ angular.module('FlowDesigner')
                 'no-value': !$scope.hasReference() && (!$scope.property.Value || $scope.property.Value === "")
             };
         };
-        
+
         $scope.selectReference = function (reference) {
             $scope.selectedReference = reference;
         };
@@ -78,8 +78,8 @@ angular.module('FlowDesigner')
         };
         var setNewReferencePosition = function (x, y) {
             $scope.newReference = {
-                x: (x - $scope.designer.getOffset().x) * (1 / $scope.designer.getScale().x) + $scope.designer.getViewBox().x,
-                y: (y - $scope.designer.getOffset().y) * (1 / $scope.designer.getScale().y) + $scope.designer.getViewBox().y
+                x: (x - $scope.designer.getOffset().x) * (1 / $scope.designer.getScale().x) + $scope.designer.getViewBox().x - 1,
+                y: (y - $scope.designer.getOffset().y) * (1 / $scope.designer.getScale().y) + $scope.designer.getViewBox().y - 1
             };
         };
 
