@@ -4,6 +4,7 @@
 angular.module('FlowDesigner')
     .controller("designerCtrl", ['$scope', 'direction', function ($scope, $direction) {
         var self = this;
+
         $scope.size = {
             width: 0,
             height: 0
@@ -60,14 +61,23 @@ angular.module('FlowDesigner')
             return prop;
         };
 
-
         //endregion Controller functions
 
         //region Designer item handling
 
+        this.selectItem = function (selectedItem) {
+            linq($scope.items).forEach(function (item) {
+                item.selected = false;
+            });
+            selectedItem.selected = true;
+            $scope.selectedChanged({item: selectedItem});
+
+        };
+
         this.removeItem = function (item) {
             linq(item.InputProperties).forEach(function (prop) {
                 if (prop.Reference) {
+                    debugger;
                     prop.removeReference(prop.Reference.TaskId, prop.Reference.ReferencedProperty);
                 }
             });
@@ -127,6 +137,7 @@ angular.module('FlowDesigner')
         $scope.move = function ($event) {
             var x = $event.clientX;
             var y = $event.clientY;
+            debugger;
             $scope.viewBox.x -= (x - moveX) * (1 / $scope.scale.x);
             $scope.viewBox.y -= (y - moveY) * (1 / $scope.scale.y);
             moveX = x;

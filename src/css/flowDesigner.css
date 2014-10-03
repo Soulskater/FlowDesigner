@@ -20,6 +20,9 @@
   fill: #f3f3f3;
   stroke-width: 2px;
 }
+.designer-item.selected {
+  stroke: #007acb;
+}
 .designer-item.running {
   stroke: #007acb !important;
 }

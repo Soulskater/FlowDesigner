@@ -8,10 +8,11 @@ var sourcemaps = require('gulp-sourcemaps');
 var minifyCss = require('gulp-minify-css');
 var del = require('del');
 
+
 var paths = {
-    lib: 'src/js/lib/**/*.js',
     scripts: ['src/js/**/*.js', '!src/js/lib/**/*.js'],
-    css: 'src/css/**/*.css'
+    css: 'src/css/flowDesigner.css',
+    templates: 'src/templates/**/*.html'
 };
 
 gulp.task('clean', function (cb) {
@@ -21,49 +22,46 @@ gulp.task('clean', function (cb) {
 
 //region Live environment
 
-gulp.task('scripts-min', ['clean'], function () {
-    function createLibraries() {
-        return gulp.src(paths.lib)
-            .pipe(uglify());
-    }
-
+gulp.task('scripts-min', function () {
     return gulp.src(paths.scripts)
         .pipe(sourcemaps.init())
-        .pipe(concat('scripts.min.js'))
+        .pipe(concat('flowDesigner.min.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write())
-        .pipe(createLibraries())
-        .pipe(concat('all.min.js'))
-        .pipe(gulp.dest('dist/js'));
+        .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('css-min', ['clean'], function () {
+gulp.task('css-min', function () {
     return gulp.src(paths.css)
         .pipe(minifyCss())
-        .pipe(concat('all.min.css'))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(concat('flowDesigner.min.css'))
+        .pipe(gulp.dest('dist/'));
 });
 
 //endregion Live environment
 
 //region Dev environment
 
-gulp.task('lib', ['clean'], function () {
-    return gulp.src(paths.lib)
-        .pipe(gulp.dest('dist/js/lib'));
-});
-
-gulp.task('scripts', ['lib'], function () {
+gulp.task('scripts', function () {
     return gulp.src(paths.scripts)
-        .pipe(gulp.dest('dist/js'));
+        .pipe(sourcemaps.init())
+        .pipe(concat('flowDesigner.js'))
+        .pipe(sourcemaps.write())
+        .pipe(gulp.dest('dist/'));
 });
 
-gulp.task('css', ['clean'], function () {
+gulp.task('css', function () {
     return gulp.src(paths.css)
-        .pipe(gulp.dest('dist/css'));
+        .pipe(concat('flowDesigner.css'))
+        .pipe(gulp.dest('dist/'));
 });
 
 //endregion Dev environment
+
+gulp.task('templates', function () {
+    return gulp.src(paths.templates)
+        .pipe(gulp.dest('dist/templates'));
+});
 
 // Rerun the task when a file changes
 gulp.task('watch', function () {
@@ -71,9 +69,9 @@ gulp.task('watch', function () {
     gulp.watch(paths.css, ['css']);
 });
 
-// DEV
-gulp.task('default', ['scripts', 'css']);
+// Build All
+gulp.task('build', ['scripts', 'scripts-min', 'css', 'css-min', 'templates']);
 
-gulp.task('dev', ['scripts', 'css']);
+gulp.task('dev', ['scripts', 'css', 'templates']);
 
-gulp.task('live', ['scripts-min', 'css-min']);
+gulp.task('live', ['scripts-min', 'css-min', 'templates']);

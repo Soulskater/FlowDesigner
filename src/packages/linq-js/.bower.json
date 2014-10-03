@@ -1,0 +1,36 @@
+{
+  "name": "linq-js",
+  "description": "Useful linq function implementations for javascript",
+  "main": "linq.js",
+  "keywords": [
+    "linq",
+    "javascript"
+  ],
+  "authors": [
+    "Gabor Meszaros"
+  ],
+  "license": "MIT",
+  "homepage": "http://soulskater.github.io/LinqJS/",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "gulpfile.js",
+    "index.html",
+    "README.md",
+    "fonts",
+    "css"
+  ],
+  "_release": "ad215ab903",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "ad215ab9031508fa812d4e5d6f1ae955acef2a2b"
+  },
+  "_source": "git://github.com/Soulskater/linqJS.git",
+  "_target": "*",
+  "_originalSource": "linq-js",
+  "_direct": true
+}

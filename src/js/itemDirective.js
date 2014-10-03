@@ -28,7 +28,7 @@ angular.module('FlowDesigner')
             restrict: "AE",
             require: '^designer',
             replace: true,
-            templateUrl: 'templates/item.tmpl.html',
+            templateUrl: 'src/templates/item.tmpl.html',
             transclude: true,
             scope: {
                 data: '=',

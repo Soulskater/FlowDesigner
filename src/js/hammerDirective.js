@@ -53,7 +53,7 @@ angular.module('Hammer.Directive', [])
                         return;
                     }
                     $scope.$apply(function () {
-                        $scope.$eval(attrs.panStart, { $event: event});
+                        $scope.$eval(attrs.panBegin, { $event: event});
                         $(document).bind('mousemove', function (event) {
                             $scope.$apply(function () {
                                 $scope.$eval(attrs.pan, { $event: event });
@@ -61,7 +61,7 @@ angular.module('Hammer.Directive', [])
                         });
                         $(document).bind('mouseup', function (event) {
                             $scope.$apply(function () {
-                                $scope.$eval(attrs.panEnd, { $event: event });
+                                $scope.$eval(attrs.panRelease, { $event: event });
                                 $(document).unbind('mousemove');
                                 $(document).unbind('mouseup');
                             });

@@ -37,7 +37,7 @@
         <circle r="5" class="connector string"
                 ng-cx="property.calculatePosition().x"
                 ng-cy="property.calculatePosition().y" pan="drag($event)"
-                pan-start="dragStart($event)" pan-end="dragEnd($event)"
+                pan-begin="dragStart($event)" pan-release="dragEnd($event)"
                 ng-class="setStyle()"
                 data-item-id="{{itemData.Id}}"
                 data-property-name="{{property.PropertyName}}">
