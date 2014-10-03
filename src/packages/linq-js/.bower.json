@@ -21,16 +21,16 @@
     "index.html",
     "README.md",
     "fonts",
-    "css"
+    "css",
+    "src/lib"
   ],
-  "_release": "ad215ab903",
+  "_release": "589c506640",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "ad215ab9031508fa812d4e5d6f1ae955acef2a2b"
+    "commit": "589c5066408fcca009c22991d07f097de827b9b2"
   },
   "_source": "git://github.com/Soulskater/linqJS.git",
   "_target": "*",
-  "_originalSource": "linq-js",
-  "_direct": true
+  "_originalSource": "linq-js"
 }

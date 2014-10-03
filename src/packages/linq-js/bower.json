@@ -22,6 +22,7 @@
         "index.html",
         "README.md",
         "fonts",
-        "css"
+        "css",
+        "src/lib"
     ]
 }

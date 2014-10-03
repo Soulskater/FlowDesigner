@@ -77,7 +77,6 @@ angular.module('FlowDesigner')
         this.removeItem = function (item) {
             linq(item.InputProperties).forEach(function (prop) {
                 if (prop.Reference) {
-                    debugger;
                     prop.removeReference(prop.Reference.TaskId, prop.Reference.ReferencedProperty);
                 }
             });
@@ -137,7 +136,6 @@ angular.module('FlowDesigner')
         $scope.move = function ($event) {
             var x = $event.clientX;
             var y = $event.clientY;
-            debugger;
             $scope.viewBox.x -= (x - moveX) * (1 / $scope.scale.x);
             $scope.viewBox.y -= (y - moveY) * (1 / $scope.scale.y);
             moveX = x;
