@@ -1,7 +1,7 @@
 /**
  * Created by gmeszaros on 8/5/2014.
  */
-angular.module('FlowDesigner', ['Svg.Directive', 'Hammer.Directive', 'Common.Directive'])
+angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Directive'])
     .constant("types", {
         text: 'Text',
         bool: 'Bool',

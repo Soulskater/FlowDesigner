@@ -1,23 +1,31 @@
 /**
  * Created by gmeszaros on 8/15/2014.
  */
-angular.module('Hammer.Directive', [])
+angular.module('Touch.Directive', [])
     .directive('tap', function () {
         return {
             restrict: 'A',
             replace: true,
             link: function ($scope, element, attrs) {
-                element.hammer({
-                }).bind('tap', function (event) {
-                    $scope.$apply(function () {
-                        $scope.$eval(attrs.tap, { $event: event });
-                    });
+                var timeStamp;
+                element.bind('mousedown', function (event) {
+                    timeStamp = new Date();
+                });
+
+                element.bind('mouseup', function (event) {
+                    var date = new Date();
+                    if (date - timeStamp <= 200) {
+                        $scope.$apply(function () {
+                            $scope.$eval(attrs.tap, { $event: event });
+                        });
+                    }
                 });
 
                 //
                 //Disposing
                 $scope.$on('$destroy', function () {
-                    element.hammer().unbind('tap');
+                    element.unbind('mousedown');
+                    element.unbind('mouseup');
                 });
             }
         };
@@ -54,18 +62,20 @@ angular.module('Hammer.Directive', [])
                     }
                     $scope.$apply(function () {
                         $scope.$eval(attrs.panBegin, { $event: event});
-                        $(document).bind('mousemove', function (event) {
+                        var mouseMoveHandler = function (event) {
                             $scope.$apply(function () {
                                 $scope.$eval(attrs.pan, { $event: event });
                             });
-                        });
-                        $(document).bind('mouseup', function (event) {
+                        };
+                        $(document).bind('mousemove', mouseMoveHandler);
+                        var mouseUpHandler = function (event) {
                             $scope.$apply(function () {
                                 $scope.$eval(attrs.panRelease, { $event: event });
-                                $(document).unbind('mousemove');
-                                $(document).unbind('mouseup');
+                                $(document).unbind('mousemove', mouseMoveHandler);
+                                $(document).unbind('mouseup', mouseUpHandler);
                             });
-                        });
+                        };
+                        $(document).bind('mouseup', mouseUpHandler);
                     });
                 });
                 //

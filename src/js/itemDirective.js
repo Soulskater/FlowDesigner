@@ -7,6 +7,7 @@ angular.module('FlowDesigner')
         $scope.$types = $types;
         $scope.width = 250;
         $scope.height = 170;
+        $scope.dragging = false;
         var dragX, dragY = 0;
         $scope.dragStart = function ($event) {
             dragX = $event.clientX;
@@ -14,13 +15,21 @@ angular.module('FlowDesigner')
             $event.stopPropagation();
         };
         $scope.drag = function ($event) {
+            $scope.dragging = true;
             var x = $event.clientX;
             var y = $event.clientY;
-            $scope.data.Position.X += (x - dragX) * (1/$scope.designer.getScale().x);
-            $scope.data.Position.Y += (y - dragY) * (1/$scope.designer.getScale().y);
+            $scope.data.Position.X += (x - dragX) * (1 / $scope.designer.getScale().x);
+            $scope.data.Position.Y += (y - dragY) * (1 / $scope.designer.getScale().y);
             dragX = x;
             dragY = y;
             $event.stopPropagation();
+        };
+        $scope.dragEnd = function ($event) {
+            $scope.dragging = false;
+        };
+
+        $scope.onItemClick = function () {
+            $scope.designer.selectItem($scope.data);
         };
     }])
     .directive('designerItem', [ 'types', 'status', function ($types, $status) {

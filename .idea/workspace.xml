@@ -5,173 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af478c9-155c-4053-847c-d582bdca1cf1" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\packages\linq-js\src\lib\shAutoloader.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\packages\linq-js\src\lib\shBrushJScript.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\packages\linq-js\src\lib\shCore.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\packages\linq-js\src\lib\shLegacy.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/.bower.json" afterPath="$PROJECT_DIR$/src/packages/bootstrap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/.bower.json" afterPath="$PROJECT_DIR$/src/packages/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/linq-js/.bower.json" afterPath="$PROJECT_DIR$/src/packages/linq-js/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/Gruntfile.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/LICENSE" afterPath="$PROJECT_DIR$/src/packages/bootstrap/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/src/packages/jquery/MIT-LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/README.md" afterPath="$PROJECT_DIR$/src/packages/bootstrap/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/effects/Tween.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/effects/Tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/manipulation/_evalUrl.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/data/accepts.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/data/accepts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/core/access.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/core/access.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/addGetHookIf.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/addGetHookIf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/alerts.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/alerts.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/alerts.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/event/alias.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/event/alias.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/exports/amd.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/exports/amd.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/effects/animatedSelector.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/effects/animatedSelector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/background-variant.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/background-variant.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/badges.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/badges.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/bootstrap.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/bootstrap.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/bootstrap.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/border-radius.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/border-radius.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/bower.json" afterPath="$PROJECT_DIR$/src/packages/bootstrap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/bower.json" afterPath="$PROJECT_DIR$/src/packages/jquery/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/linq-js/bower.json" afterPath="$PROJECT_DIR$/src/packages/linq-js/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/breadcrumbs.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/breadcrumbs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/button-groups.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/button-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/buttons.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/buttons.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/buttons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/carousel.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/carousel.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/center-block.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/center-block.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes/classes.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes/classes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/clearfix.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/clearfix.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/close.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/close.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/code.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/code.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/component-animations.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/component-animations.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/core.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/data.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/defaultDisplay.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/defaultDisplay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/queue/delay.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/queue/delay.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/deprecated.js" />
+      <change type="MOVED" beforePath="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\js\hammerDirective.js" afterPath="$PROJECT_DIR$/src/js/touchDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/connectorCtrl.js" afterPath="$PROJECT_DIR$/src/js/connectorCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/designerCtrl.js" afterPath="$PROJECT_DIR$/src/js/designerCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/dimensions.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/dropdowns.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/dropdowns.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/effects.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/event.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/traversing/findFilter.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/traversing/findFilter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/css/flowDesigner.css" afterPath="$PROJECT_DIR$/src/css/flowDesigner.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/forms.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/forms.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/exports/global.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/exports/global.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/src/packages/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/glyphicons.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/glyphicons.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/gradients.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/gradients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/grid-framework.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/grid.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/grid.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/grid.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/hide-text.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/hide-text.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/image.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/image.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/input-groups.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/input-groups.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/intro.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/intro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/jquery.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/jsonp.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/jsonp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/jumbotron.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/jumbotron.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/labels.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/labels.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/labels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/list-group.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/list-group.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/list-group.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/load.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/load.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/media.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/media.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/media.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/modals.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/modals.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/nav-divider.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/nav-vertical-align.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/navbar.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/navbar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/navs.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/navs.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/normalize.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/normalize.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/normalize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/offset.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/opacity.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/opacity.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/outro.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/outro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/package.json" afterPath="$PROJECT_DIR$/src/packages/bootstrap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/pager.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/pager.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/pagination.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/pagination.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/pagination.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/panels.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/panels.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/panels.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/core/parseHTML.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/core/parseHTML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/parseJSON.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/parseJSON.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/parseXML.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/parseXML.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/popovers.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/popovers.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/print.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/print.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/print.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/print.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/progress-bar.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/progress-bars.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/progress-bars.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes/prop.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes/prop.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/queue.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/reset-filter.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/resize.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/resize.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-embed.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-embed.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-embed.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-embed.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-utilities.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/responsive-utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/responsive-visibility.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/grunt/sauce_browsers.yml" afterPath="$PROJECT_DIR$/src/packages/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/scaffolding.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/scaffolding.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/script.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/selector-native.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/selector-native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/selector-sizzle.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/selector-sizzle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/selector.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/selector.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/size.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/size.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes/support.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/support.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/event/support.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/event/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/manipulation/support.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/manipulation/support.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/css/swap.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/css/swap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/tab-focus.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/table-row.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/table-row.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/tables.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/tables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/text-emphasis.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/text-overflow.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/theme.css" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/theme.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/theme.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/thumbnails.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/thumbnails.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/tooltip.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/tooltip.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/src/packages/bootstrap/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/type.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/type.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/utilities.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/utilities.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/variables.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/variables.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/vendor-prefixes.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/bootstrap/less/wells.less" afterPath="$PROJECT_DIR$/src/packages/bootstrap/less/wells.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/designerDirective.js" afterPath="$PROJECT_DIR$/src/js/designerDirective.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/flowDesigner.js" afterPath="$PROJECT_DIR$/dist/flowDesigner.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/flowDesigner.min.js" afterPath="$PROJECT_DIR$/dist/flowDesigner.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/item.tmpl.html" afterPath="$PROJECT_DIR$/src/templates/item.tmpl.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/itemDirective.js" afterPath="$PROJECT_DIR$/src/js/itemDirective.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/wrap.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/wrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/packages/jquery/src/ajax/xhr.js" afterPath="$PROJECT_DIR$/src/packages/jquery/src/ajax/xhr.js" />
     </list>
     <ignored path="FlowDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -197,18 +40,8 @@
       <file leaf-file-name="item.tmpl.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="816" max-vertical-offset="1224">
-              <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="connector.tmpl.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="884">
-              <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="20" />
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="408" max-vertical-offset="1224">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -217,28 +50,52 @@
       <file leaf-file-name="itemDirective.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1241">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1139">
+              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+              <folding>
+                <element signature="e#402#523#0" expanded="false" />
+                <element signature="e#565#944#0" expanded="false" />
+                <element signature="e#989#1037#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="designerCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="designerCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7096774" vertical-offset="1020" max-vertical-offset="2771">
-              <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2720">
+              <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hammerDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
+      <file leaf-file-name="connectorCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/connectorCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1411">
-              <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
+            <state vertical-scroll-proportion="0.7063037" vertical-offset="306" max-vertical-offset="1734">
+              <caret line="47" column="97" selection-start-line="47" selection-start-column="97" selection-end-line="47" selection-end-column="97" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="touchDirective.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/touchDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designerDirective.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
+              <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -254,31 +111,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="svgDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/svgDirective.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2160" max-vertical-offset="3026">
-              <caret line="130" column="27" selection-start-line="130" selection-start-column="27" selection-end-line="130" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="680">
+            <state vertical-scroll-proportion="-6.8846154" vertical-offset="8" max-vertical-offset="680">
               <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/packages/jquery/bower.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="561">
-              <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -312,26 +149,27 @@
         <option value="$PROJECT_DIR$/src/css/common.less" />
         <option value="$PROJECT_DIR$/src/css/shared.less" />
         <option value="$PROJECT_DIR$/src/js/lib/hammer.js" />
-        <option value="$PROJECT_DIR$/src/js/connectorCtrl.js" />
         <option value="$PROJECT_DIR$/src/css/flowDesigner.less" />
         <option value="$PROJECT_DIR$/src/js/lib/linq.js" />
         <option value="$PROJECT_DIR$/src/js/TestCtrl.js" />
         <option value="$PROJECT_DIR$/bower.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/js/designerDirective.js" />
         <option value="$PROJECT_DIR$/src/js/connectorDirective.js" />
-        <option value="$PROJECT_DIR$/src/templates/item.tmpl.html" />
         <option value="$PROJECT_DIR$/src/templates/designer.tmpl.html" />
         <option value="$PROJECT_DIR$/src/templates/connector.tmpl.html" />
         <option value="$PROJECT_DIR$/dist/templates/item.tmpl.html" />
         <option value="$PROJECT_DIR$/dist/templates/connector.tmpl.html" />
         <option value="$PROJECT_DIR$/dist/templates/designer.tmpl.html" />
         <option value="$PROJECT_DIR$/src/js/hammerDirective.js" />
-        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
         <option value="$PROJECT_DIR$/src/packages/jquery/bower.json" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/js/designerDirective.js" />
+        <option value="$PROJECT_DIR$/src/templates/item.tmpl.html" />
+        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
+        <option value="$PROJECT_DIR$/src/js/touchDirective.js" />
         <option value="$PROJECT_DIR$/src/js/designerCtrl.js" />
+        <option value="$PROJECT_DIR$/src/js/connectorCtrl.js" />
       </list>
     </option>
   </component>
@@ -515,15 +353,7 @@
       <recent name="C:\Users\MCG\Documents\GitHub\FlowDesigner\src\js" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.Gulp Build All">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JavaScript Debug.DebugJS">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -534,14 +364,12 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
-      <option name="cucumberJsArguments" />
-      <option name="executablePath" />
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
       <option name="filePath" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
-      <envs />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
@@ -549,6 +377,16 @@
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="Chrome" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaScriptRunConfigurationType" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" />
+      <option name="executablePath" />
+      <option name="filePath" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -593,7 +431,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -601,18 +439,18 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22708334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23497854" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23417722" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41455695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41455695" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.041797284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.041797284" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -641,11 +479,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="1241">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
+          <folding>
+            <element signature="e#402#523#0" expanded="false" />
+            <element signature="e#565#944#0" expanded="false" />
+            <element signature="e#989#1037#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
+    <entry file="file://$PROJECT_DIR$/src/js/touchDirective.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1411">
           <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
@@ -890,26 +732,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/connectorCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1666">
-          <caret line="18" column="72" selection-start-line="18" selection-start-column="72" selection-end-line="18" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/css/flowDesigner.less">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="340">
           <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TestCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3075" max-vertical-offset="3689">
-          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -924,14 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3380682" vertical-offset="0" max-vertical-offset="704">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <caret line="24" column="26" selection-start-line="24" selection-start-column="26" selection-end-line="24" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -952,14 +770,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="816" max-vertical-offset="1224">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/templates/designer.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
@@ -976,25 +786,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/hammerDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="533" max-vertical-offset="1411">
-          <caret line="58" column="33" selection-start-line="58" selection-start-column="33" selection-end-line="58" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.25548902" vertical-offset="128" max-vertical-offset="629">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/packages/jquery/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="561">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
           <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="4" />
           <folding />
         </state>
@@ -1002,24 +803,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="680">
+        <state vertical-scroll-proportion="-6.8846154" vertical-offset="8" max-vertical-offset="680">
           <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TestCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3075" max-vertical-offset="3689">
+          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="408" max-vertical-offset="1224">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1241">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="1139">
+          <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+          <folding>
+            <element signature="e#402#523#0" expanded="false" />
+            <element signature="e#565#944#0" expanded="false" />
+            <element signature="e#989#1037#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/touchDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1581">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="816">
+          <caret line="27" column="27" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/designerCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7096774" vertical-offset="1020" max-vertical-offset="2771">
-          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="2720">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/connectorCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7063037" vertical-offset="306" max-vertical-offset="1734">
+          <caret line="47" column="97" selection-start-line="47" selection-start-column="97" selection-end-line="47" selection-end-column="97" />
           <folding />
         </state>
       </provider>

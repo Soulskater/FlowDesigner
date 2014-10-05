@@ -45,6 +45,10 @@ angular.module('FlowDesigner')
             }
             var refItem = $scope.designer.getItem(itemId);
             var refProp = $scope.designer.getProperty(refItem, propertyName);
+            if(refProp.Direction === $scope.property.Direction || itemId === $scope.itemData.Id){
+                $scope.newReference = null;
+                return;
+            }
             addReferences($scope.property, refProp, refItem);
             $scope.newReference = null;
             $event.stopPropagation();

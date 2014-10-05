@@ -43,9 +43,9 @@
               ng-x="data.Position.X+5"
               ng-y="data.Position.Y"
               pan-begin="dragStart($event)"
-              pan-release=""
+              pan-release="dragEnd($event)"
               pan="drag($event)"
-              ng-click="designer.selectItem(data)"
+              tap="onItemClick()"
               class="transparent">
         </rect>
 

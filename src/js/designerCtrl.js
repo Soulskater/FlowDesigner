@@ -107,9 +107,6 @@ angular.module('FlowDesigner')
             if (event.deltaY === 1) {
                 $scope.scale.x += step;
                 $scope.scale.y += step;
-
-                //$scope.viewBox.x += event.clientX - ($scope.viewBox.width / 2);
-                //$scope.viewBox.y += event.clientY - ($scope.viewBox.height / 2);
             }
             event.preventDefault();
         };
