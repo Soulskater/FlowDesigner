@@ -10,9 +10,10 @@ var del = require('del');
 
 
 var paths = {
-    scripts: ['src/js/**/*.js', '!src/js/lib/**/*.js'],
+    scripts: [ 'src/js/designerDirective.js' ,'src/js/**/*.js', '!src/js/lib/**/*.js'],
     css: 'src/css/flowDesigner.css',
-    templates: 'src/templates/**/*.html'
+    templates: 'src/templates/**/*.html',
+    fonts: 'src/fonts/**/*.ttf'
 };
 
 gulp.task('clean', function (cb) {
@@ -63,6 +64,11 @@ gulp.task('templates', function () {
         .pipe(gulp.dest('dist/templates'));
 });
 
+gulp.task('fonts', function () {
+    return gulp.src(paths.fonts)
+        .pipe(gulp.dest('dist/fonts'));
+});
+
 // Rerun the task when a file changes
 gulp.task('watch', function () {
     gulp.watch(paths.scripts, ['scripts']);
@@ -70,8 +76,8 @@ gulp.task('watch', function () {
 });
 
 // Build All
-gulp.task('build', ['scripts', 'scripts-min', 'css', 'css-min', 'templates']);
+gulp.task('build', ['scripts', 'scripts-min', 'css', 'css-min', 'templates', 'fonts']);
 
-gulp.task('dev', ['scripts', 'css', 'templates']);
+gulp.task('dev', ['scripts', 'css', 'templates', 'fonts']);
 
-gulp.task('live', ['scripts-min', 'css-min', 'templates']);
+gulp.task('live', ['scripts-min', 'css-min', 'templates', 'fonts']);
