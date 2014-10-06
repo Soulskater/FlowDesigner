@@ -5,7 +5,9 @@ angular.module('FlowDesigner')
     .service("pathService", [ function () {
         var _templateBaseUrl = "src/templates/";
         return{
-            templatesBaseUrl: _templateBaseUrl,
+            getTemplatesBaseUrl: function () {
+             return _templateBaseUrl;
+            },
             setPath: function (options) {
                 _templateBaseUrl = options.templatesBaseUrl;
             }
