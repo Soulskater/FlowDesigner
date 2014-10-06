@@ -7,7 +7,7 @@ angular.module('FlowDesigner')
             restrict: "AE",
             replace: true,
             require: '^designer',
-            templateUrl: $path.getTemplatesBaseUrl() + 'connector.tmpl.html',
+            templateUrl: $path.templatesBaseUrl + 'connector.tmpl.html',
             controller: 'connectorCtrl',
             scope: {
                 itemData: '=',

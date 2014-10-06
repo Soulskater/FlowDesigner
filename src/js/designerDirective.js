@@ -22,7 +22,7 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
             restrict: "AE",
             transclude: false,
             replace: true,
-            templateUrl: $path.getTemplatesBaseUrl() + 'designer.tmpl.html',
+            templateUrl: $path.templatesBaseUrl + 'designer.tmpl.html',
             scope: {
                 autoSize: '=',
                 items: '=',

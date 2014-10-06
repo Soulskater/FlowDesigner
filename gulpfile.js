@@ -29,7 +29,7 @@ gulp.task('scripts-min', function () {
         .pipe(concat('flowDesigner.min.js'))
         .pipe(uglify())
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('css-min', function () {
@@ -48,7 +48,7 @@ gulp.task('scripts', function () {
         .pipe(sourcemaps.init())
         .pipe(concat('flowDesigner.js'))
         .pipe(sourcemaps.write())
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('css', function () {
