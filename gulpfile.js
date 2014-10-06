@@ -36,7 +36,7 @@ gulp.task('css-min', function () {
     return gulp.src(paths.css)
         .pipe(minifyCss())
         .pipe(concat('flowDesigner.min.css'))
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist/css'));
 });
 
 //endregion Live environment
@@ -54,7 +54,7 @@ gulp.task('scripts', function () {
 gulp.task('css', function () {
     return gulp.src(paths.css)
         .pipe(concat('flowDesigner.css'))
-        .pipe(gulp.dest('dist/'));
+        .pipe(gulp.dest('dist/css'));
 });
 
 //endregion Dev environment

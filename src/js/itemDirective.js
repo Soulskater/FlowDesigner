@@ -32,12 +32,12 @@ angular.module('FlowDesigner')
             $scope.designer.selectItem($scope.data);
         };
     }])
-    .directive('designerItem', [ 'types', 'status', function ($types, $status) {
+    .directive('designerItem', [ 'types', 'status', 'pathService', function ($types, $status, $path) {
         return{
             restrict: "AE",
             require: '^designer',
             replace: true,
-            templateUrl: 'src/templates/item.tmpl.html',
+            templateUrl: $path.templatesBaseUrl + 'item.tmpl.html',
             transclude: true,
             scope: {
                 data: '=',

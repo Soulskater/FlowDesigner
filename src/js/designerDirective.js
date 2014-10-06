@@ -17,12 +17,12 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
         input: 'input',
         output: 'output'
     })
-    .directive('designer', ["$timeout", function ($timeout) {
+    .directive('designer', ["$timeout", "pathService", function ($timeout, $path) {
         return{
             restrict: "AE",
             transclude: false,
             replace: true,
-            templateUrl: 'src/templates/designer.tmpl.html',
+            templateUrl: $path.templatesBaseUrl + 'designer.tmpl.html',
             scope: {
                 autoSize: '=',
                 items: '=',

@@ -2,12 +2,12 @@
  * Created by gmeszaros on 9/9/2014.
  */
 angular.module('FlowDesigner')
-    .directive('connector', ['types', 'direction', function ($types, $direction) {
+    .directive('connector', ['types', 'direction', 'pathService', function ($types, $direction, $path) {
         return{
             restrict: "AE",
             replace: true,
             require: '^designer',
-            templateUrl: 'src/templates/connector.tmpl.html',
+            templateUrl: $path.templatesBaseUrl + 'connector.tmpl.html',
             controller: 'connectorCtrl',
             scope: {
                 itemData: '=',
