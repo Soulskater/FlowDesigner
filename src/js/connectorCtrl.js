@@ -10,7 +10,7 @@ angular.module('FlowDesigner')
             if ($scope.property.Direction === $direction.input) {
                 return $scope.property.Reference !== null;
             } else {
-                return $scope.property.References.length !== 0;
+                return $scope.property.References !== null && $scope.property.References.length !== 0;
             }
         };
         $scope.setStyle = function () {
