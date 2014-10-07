@@ -2,7 +2,7 @@
     <g>
         <!--New reference-->
         <line ng-if="newReference" stroke-dasharray="5,5"
-              class="connector string"
+              class="connector text"
               ng-x1="property.calculatePosition().x" ng-y1="property.calculatePosition().y"
               ng-x2="newReference.x" ng-y2="newReference.y"/>
 
@@ -33,11 +33,11 @@
                 </div>
             </foreignObject>
         </g>
-        <circle r="5" class="connector string"
+        <circle r="5" class="connector {{property.PropertyValueType.toLowerCase()}}"
+                ng-class="{ 'no-value': !hasReference() && (!property.Value || property.Value === '')}"
                 ng-cx="property.calculatePosition().x"
                 ng-cy="property.calculatePosition().y" pan="drag($event)"
                 pan-begin="dragStart($event)" pan-release="dragEnd($event)"
-                ng-class="setStyle()"
                 data-item-id="{{itemData.Id}}"
                 data-property-name="{{property.PropertyName}}">
             <title>{{property.HintText}}</title>
