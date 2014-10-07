@@ -5,7 +5,7 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
     .constant("types", {
         text: 'Text',
         bool: 'Bool',
-        int: 'Number'
+        number: 'Number'
     })
     .constant("status", {
         notrun: 'notrun',

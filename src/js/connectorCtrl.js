@@ -17,7 +17,7 @@ angular.module('FlowDesigner')
             return {
                 string: $scope.property.PropertyValueType === $types.string,
                 bool: $scope.property.PropertyValueType === $types.bool,
-                number: $scope.property.PropertyValueType === $types.int,
+                number: $scope.property.PropertyValueType === $types.number,
                 'no-value': !$scope.hasReference() && (!$scope.property.Value || $scope.property.Value === "")
             };
         };

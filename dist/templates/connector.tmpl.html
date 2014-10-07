@@ -20,13 +20,12 @@
         <g ng-if="property.Direction === $direction.output">
             <!--Property references-->
             <line ng-repeat="reference in property.References"
-                  class="connector"
-                  ng-class="setStyle()"
+                  class="connector {{property.PropertyValueType.toLowerCase()}}"
+                  ng-class="{ 'no-value': !hasReference() && (!property.Value || property.Value === '')}"
                   ng-click="selectReference(reference)"
                   ng-x1="property.calculatePosition().x" ng-y1="property.calculatePosition().y"
                   ng-x2="designer.getReferencedProperty(reference).calculatePosition().x"
                   ng-y2="designer.getReferencedProperty(reference).calculatePosition().y"/>
-
             <foreignObject ng-x="property.calculatePosition().x-105" ng-y="property.calculatePosition().y-10"
                            width="100" height="20">
                 <div class="text-space s right font-xs text-right property-name" title="{{property.LabelText}}">

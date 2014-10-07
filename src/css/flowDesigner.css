@@ -17,7 +17,7 @@
 }
 .designer-item {
   stroke: #404040;
-  fill: #f3f3f3;
+  fill: #dbdbdb;
   stroke-width: 2px;
 }
 .designer-item.selected {
@@ -46,7 +46,7 @@
   stroke-width: 3px;
 }
 .connector.no-value {
-  fill: #f3f3f3;
+  fill: #dbdbdb;
 }
 /* region Property Types */
 .string {
