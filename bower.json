@@ -20,7 +20,7 @@
     "tests",
     "src/packages",
 	"gulpfile.js",
-	"TestCtl.js",
+	"TestCtrl.js",
 	"index.html"
   ],
   "dependencies": {

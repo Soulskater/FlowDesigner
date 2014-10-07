@@ -102,7 +102,7 @@ angular.module('TestModule', ['FlowDesigner'])
                         "LabelText": "Result",
                         "HintText": "The result number",
                         "DefaultValue": "10",
-                        "PropertyValueType": "Number",
+                        "PropertyValueType": "Text",
                         "Value": null,
                         "References": [],
                         /*"References": [
