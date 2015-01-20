@@ -32,7 +32,7 @@ angular.module('FlowDesigner')
             $scope.designer.selectItem($scope.data);
         };
     }])
-    .directive('designerItem', [ 'types', 'status', 'pathService', function ($types, $status, $path) {
+    .directive('designerItem', [ 'types', 'status', 'FlowDesigner.PathService', function ($types, $status, $path) {
         return{
             restrict: "AE",
             require: '^designer',

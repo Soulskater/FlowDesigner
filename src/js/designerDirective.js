@@ -17,7 +17,7 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
         input: 'input',
         output: 'output'
     })
-    .directive('designer', ["$timeout", "pathService", function ($timeout, $path) {
+    .directive('designer', ["$timeout", "FlowDesigner.PathService", function ($timeout, $path) {
         return{
             restrict: "AE",
             transclude: false,

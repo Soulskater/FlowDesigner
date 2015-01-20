@@ -2,7 +2,7 @@
  * Created by gmeszaros on 9/9/2014.
  */
 angular.module('FlowDesigner')
-    .directive('connector', ['types', 'direction', 'pathService', function ($types, $direction, $path) {
+    .directive('connector', ['types', 'direction', 'FlowDesigner.PathService', function ($types, $direction, $path) {
         return{
             restrict: "AE",
             replace: true,

@@ -6,7 +6,7 @@ var currentScriptPath = scripts[scripts.length - 1].src;
 var flowDesignerRootPath = currentScriptPath.split("js/")[0];
 
 angular.module('FlowDesigner')
-    .service("pathService", [ function () {
+    .service("FlowDesigner.PathService", [ function () {
         return{
             templatesBaseUrl: flowDesignerRootPath + "templates/"
         };
