@@ -84,10 +84,11 @@
       <file leaf-file-name="flowDesigner.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dist/js/flowDesigner.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="12512">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="12597">
+              <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding>
-                <marker date="1421846234629" expanded="true" signature="1245:1349" placeholder="{...}" />
+                <marker date="1421848681241" expanded="true" signature="1442:1512" placeholder="{...}" />
+                <marker date="1421848681241" expanded="true" signature="1586:1655" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -106,8 +107,8 @@
       <file leaf-file-name="designerDirective.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6732673" vertical-offset="0" max-vertical-offset="935">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.83168316" vertical-offset="228" max-vertical-offset="1020">
+              <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -747,10 +748,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/js/flowDesigner.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="239" max-vertical-offset="12512">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="12597">
+          <caret line="39" column="27" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding>
-            <marker date="1421846234629" expanded="true" signature="1245:1349" placeholder="{...}" />
+            <marker date="1421848681241" expanded="true" signature="1442:1512" placeholder="{...}" />
+            <marker date="1421848681241" expanded="true" signature="1586:1655" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -781,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6732673" vertical-offset="0" max-vertical-offset="935">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.83168316" vertical-offset="228" max-vertical-offset="1020">
+          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
           <folding />
         </state>
       </provider>

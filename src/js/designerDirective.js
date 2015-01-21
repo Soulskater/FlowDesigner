@@ -37,14 +37,19 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
                         height: element.height()
                     };
                 };
+                var setOffset = function () {
+                    $scope.offset = {
+                        x: element.offset().left,
+                        y: element.offset().top
+                    };
+                };
                 setSize();
+                setOffset();
                 $scope.$watch('sizeChanged', function () {
                     setSize();
+                    setOffset();
                 });
-                $scope.offset = {
-                    x: element.offset().left,
-                    y: element.offset().top
-                };
+
             }
         };
     }]);
