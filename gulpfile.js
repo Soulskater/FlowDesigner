@@ -10,7 +10,7 @@ var del = require('del');
 
 
 var paths = {
-    scripts: [ 'src/js/designerDirective.js' ,'src/js/**/*.js', '!src/js/lib/**/*.js'],
+    scripts: [ 'src/js/designerDirective.js' ,'src/js/**/*.js', 'src/js/lib/**/*.js'],
     css: 'src/css/flowDesigner.css',
     templates: 'src/templates/**/*.html',
     fonts: 'src/fonts/**/*.ttf'
