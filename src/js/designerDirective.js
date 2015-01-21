@@ -45,11 +45,10 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
                 };
                 setSize();
                 setOffset();
-                $scope.$watch('sizeChanged', function () {
+                var resizer = new ResizeSensor($(element).parent().parent(), function () {
                     setSize();
                     setOffset();
                 });
-
             }
         };
     }]);
