@@ -18,7 +18,7 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
         output: 'output'
     })
     .directive('designer', ["$timeout", "FlowDesigner.PathService", function ($timeout, $path) {
-        return{
+        return {
             restrict: "AE",
             transclude: false,
             replace: true,
@@ -26,14 +26,21 @@ angular.module('FlowDesigner', ['Svg.Directive', 'Touch.Directive', 'Common.Dire
             scope: {
                 autoSize: '=',
                 items: '=',
-                selectedChanged: '&'
+                selectedChanged: '&',
+                sizeChanged: '='
             },
             controller: 'designerCtrl',
             link: function ($scope, element, attrs) {
-                $scope.size = {
-                    width: element.width(),
-                    height: element.height()
+                var setSize = function () {
+                    $scope.size = {
+                        width: element.width(),
+                        height: element.height()
+                    };
                 };
+                setSize();
+                $scope.$watch('sizeChanged', function () {
+                    setSize();
+                });
                 $scope.offset = {
                     x: element.offset().left,
                     y: element.offset().top
