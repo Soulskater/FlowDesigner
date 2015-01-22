@@ -11,10 +11,6 @@
      * @constructor
      */
     var ElementQueries = this.ElementQueries = function() {
-
-        this.withTracking = false;
-        var elements = [];
-
         /**
          *
          * @param element
@@ -32,8 +28,9 @@
          *
          * @copyright https://github.com/Mr0grog/element-query/blob/master/LICENSE
          *
-         * @param {HTMLElement} element
-         * @param {*} value
+         * @param element
+         * @param value
+         * @param units
          * @returns {*}
          */
         function convertToPx(element, value) {
@@ -73,16 +70,15 @@
          */
         function SetupInformation(element) {
             this.element = element;
-            this.options = {};
-            var key, option, width = 0, height = 0, value, actualValue, attrValues, attrValue, attrName;
+            this.options = [];
+            var i, j, option, width = 0, height = 0, value, actualValue, attrValues, attrValue, attrName;
 
             /**
-             * @param {Object} option {mode: 'min|max', property: 'width|height', value: '123px'}
+             * @param option {mode: 'min|max', property: 'width|height', value: '123px'}
              */
             this.addOption = function(option) {
-                var idx = [option.mode, option.property, option.value].join(',');
-                this.options[idx] = option;
-            };
+                this.options.push(option);
+            }
 
             var attributes = ['min-width', 'min-height', 'max-width', 'max-height'];
 
@@ -96,12 +92,8 @@
 
                 attrValues = {};
 
-                for (key in this.options) {
-                    if (!this.options.hasOwnProperty(key)){
-                        continue;
-                    }
-                    option = this.options[key];
-
+                for (i = 0, j = this.options.length; i < j; i++) {
+                    option = this.options[i];
                     value = convertToPx(this.element, option.value);
 
                     actualValue = option.property == 'width' ? width : height;
@@ -142,15 +134,11 @@
             } else {
                 element.elementQueriesSetupInformation = new SetupInformation(element);
                 element.elementQueriesSetupInformation.addOption(options);
-                element.elementQueriesSensor = new ResizeSensor(element, function() {
+                new ResizeSensor(element, function() {
                     element.elementQueriesSetupInformation.call();
                 });
             }
             element.elementQueriesSetupInformation.call();
-
-            if (this.withTracking) {
-                elements.push(element);
-            }
         }
 
         /**
@@ -225,72 +213,16 @@
 
         /**
          * Searches all css rules and setups the event listener to all elements with element query rules..
-         *
-         * @param {Boolean} withTracking allows and requires you to use detach, since we store internally all used elements
-         *                               (no garbage collection possible if you don not call .detach() first)
          */
-        this.init = function(withTracking) {
-            this.withTracking = withTracking;
+        this.init = function() {
             for (var i = 0, j = document.styleSheets.length; i < j; i++) {
                 readRules(document.styleSheets[i].cssText || document.styleSheets[i].cssRules || document.styleSheets[i].rules);
             }
-        };
-
-        /**
-         *
-         * @param {Boolean} withTracking allows and requires you to use detach, since we store internally all used elements
-         *                               (no garbage collection possible if you don not call .detach() first)
-         */
-        this.update = function(withTracking) {
-            this.withTracking = withTracking;
-            this.init();
-        };
-
-        this.detach = function() {
-            if (!this.withTracking) {
-                throw 'withTracking is not enabled. We can not detach elements since we don not store it.' +
-                'Use ElementQueries.withTracking = true; before domready.';
-            }
-
-            var element;
-            while (element = elements.pop()) {
-                ElementQueries.detach(element);
-            }
-
-            elements = [];
-        };
-    };
-
-    /**
-     *
-     * @param {Boolean} withTracking allows and requires you to use detach, since we store internally all used elements
-     *                               (no garbage collection possible if you don not call .detach() first)
-     */
-    ElementQueries.update = function(withTracking) {
-        ElementQueries.instance.update(withTracking);
-    };
-
-    /**
-     * Removes all sensor and elementquery information from the element.
-     *
-     * @param {HTMLElement} element
-     */
-    ElementQueries.detach = function(element) {
-        if (element.elementQueriesSetupInformation) {
-            element.elementQueriesSensor.detach();
-            delete element.elementQueriesSetupInformation;
-            delete element.elementQueriesSensor;
-            console.log('detached');
-        } else {
-            console.log('detached already', element);
         }
-    };
-
-    ElementQueries.withTracking = false;
+    }
 
     function init() {
-        ElementQueries.instance = new ElementQueries();
-        ElementQueries.instance.init(ElementQueries.withTracking);
+        new ElementQueries().init();
     }
 
     if (window.addEventListener) {
