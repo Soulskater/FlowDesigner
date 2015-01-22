@@ -59,7 +59,7 @@ angular.module('FlowDesigner')
         return{
             restrict: "E",
             replace: true,
-            template: '<div class="font-m box-header" ng-transclude></div>',
+            template: '<div class="font-l box-header" ng-transclude></div>',
             transclude: true,
             link: function ($scope, element, attrs) {
             }
@@ -69,7 +69,7 @@ angular.module('FlowDesigner')
         return{
             restrict: "AE",
             replace: true,
-            template: '<div class="font-xs" ng-transclude></div>',
+            template: '<div class="font-m" ng-transclude></div>',
             transclude: true,
             link: function ($scope, element, attrs, ctrl) {
             }

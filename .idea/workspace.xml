@@ -5,250 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2af478c9-155c-4053-847c-d582bdca1cf1" name="Default" comment="">
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\.bower.json" afterPath="$PROJECT_DIR$/packages/angular/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\README.md" afterPath="$PROJECT_DIR$/packages/angular/README.md" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\angular-csp.css" afterPath="$PROJECT_DIR$/packages/angular/angular-csp.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\angular.js" afterPath="$PROJECT_DIR$/packages/angular/angular.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\angular.min.js" afterPath="$PROJECT_DIR$/packages/angular/angular.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\angular.min.js.gzip" afterPath="$PROJECT_DIR$/packages/angular/angular.min.js.gzip" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\angular.min.js.map" afterPath="$PROJECT_DIR$/packages/angular/angular.min.js.map" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\bower.json" afterPath="$PROJECT_DIR$/packages/angular/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\angular\package.json" afterPath="$PROJECT_DIR$/packages/angular/package.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\.bower.json" afterPath="$PROJECT_DIR$/packages/bootstrap/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\Gruntfile.js" afterPath="$PROJECT_DIR$/packages/bootstrap/Gruntfile.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\LICENSE" afterPath="$PROJECT_DIR$/packages/bootstrap/LICENSE" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\README.md" afterPath="$PROJECT_DIR$/packages/bootstrap/README.md" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\bower.json" afterPath="$PROJECT_DIR$/packages/bootstrap/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap-theme.css" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap-theme.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap-theme.css.map" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap-theme.min.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap.css" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap.css.map" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap.css.map" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\css\bootstrap.min.css" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/css/bootstrap.min.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\js\bootstrap.js" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/js/bootstrap.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\dist\js\bootstrap.min.js" afterPath="$PROJECT_DIR$/packages/bootstrap/dist/js/bootstrap.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/packages/bootstrap/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\fonts\glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/packages/bootstrap/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/packages/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/packages/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\grunt\bs-glyphicons-data-generator.js" afterPath="$PROJECT_DIR$/packages/bootstrap/grunt/bs-glyphicons-data-generator.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\grunt\bs-lessdoc-parser.js" afterPath="$PROJECT_DIR$/packages/bootstrap/grunt/bs-lessdoc-parser.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\grunt\bs-raw-files-generator.js" afterPath="$PROJECT_DIR$/packages/bootstrap/grunt/bs-raw-files-generator.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\grunt\sauce_browsers.yml" afterPath="$PROJECT_DIR$/packages/bootstrap/grunt/sauce_browsers.yml" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\affix.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/affix.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\alert.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/alert.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\button.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/button.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\carousel.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/carousel.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\collapse.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/collapse.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\dropdown.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/dropdown.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\modal.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/modal.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\popover.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/popover.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\scrollspy.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/scrollspy.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\tab.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/tab.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\tooltip.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/tooltip.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\js\transition.js" afterPath="$PROJECT_DIR$/packages/bootstrap/js/transition.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\alerts.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/alerts.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\badges.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/badges.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\bootstrap.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/bootstrap.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\bootstrap.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/bootstrap.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\breadcrumbs.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/breadcrumbs.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\button-groups.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/button-groups.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\buttons.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/buttons.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\carousel.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/carousel.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\close.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/close.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\code.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/code.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\component-animations.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/component-animations.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\dropdowns.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/dropdowns.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\forms.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/forms.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\glyphicons.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/glyphicons.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\grid.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/grid.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\input-groups.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/input-groups.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\jumbotron.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/jumbotron.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\labels.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/labels.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\list-group.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/list-group.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\media.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/media.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\media.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/media.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\alerts.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/alerts.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\alerts.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/alerts.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\background-variant.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/background-variant.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\background-variant.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/background-variant.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\border-radius.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/border-radius.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\border-radius.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/border-radius.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\buttons.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/buttons.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\buttons.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/buttons.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\center-block.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/center-block.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\center-block.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/center-block.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\clearfix.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/clearfix.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\clearfix.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/clearfix.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\forms.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/forms.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\forms.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/forms.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\gradients.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/gradients.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\gradients.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/gradients.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\grid-framework.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/grid-framework.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\grid-framework.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/grid-framework.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\grid.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/grid.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\grid.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/grid.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\hide-text.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/hide-text.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\hide-text.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/hide-text.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\image.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/image.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\image.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/image.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\labels.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/labels.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\labels.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/labels.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\list-group.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/list-group.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\list-group.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/list-group.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\nav-divider.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/nav-divider.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\nav-divider.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/nav-divider.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\nav-vertical-align.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/nav-vertical-align.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\nav-vertical-align.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/nav-vertical-align.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\opacity.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/opacity.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\opacity.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/opacity.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\pagination.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/pagination.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\pagination.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/pagination.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\panels.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/panels.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\panels.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/panels.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\progress-bar.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/progress-bar.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\progress-bar.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/progress-bar.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\reset-filter.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/reset-filter.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\reset-filter.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/reset-filter.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\resize.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/resize.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\resize.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/resize.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\responsive-visibility.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/responsive-visibility.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\responsive-visibility.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/responsive-visibility.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\size.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/size.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\size.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/size.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\tab-focus.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/tab-focus.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\tab-focus.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/tab-focus.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\table-row.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/table-row.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\table-row.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/table-row.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\text-emphasis.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/text-emphasis.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\text-emphasis.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/text-emphasis.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\text-overflow.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/text-overflow.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\text-overflow.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/text-overflow.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\vendor-prefixes.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/vendor-prefixes.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\mixins\vendor-prefixes.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/mixins/vendor-prefixes.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\modals.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/modals.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\navbar.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/navbar.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\navs.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/navs.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\normalize.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/normalize.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\normalize.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/normalize.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\pager.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/pager.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\pagination.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/pagination.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\panels.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/panels.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\popovers.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/popovers.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\print.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/print.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\print.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/print.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\progress-bars.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/progress-bars.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\responsive-embed.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/responsive-embed.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\responsive-embed.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/responsive-embed.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\responsive-utilities.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/responsive-utilities.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\scaffolding.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/scaffolding.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\tables.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/tables.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\theme.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/theme.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\theme.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/theme.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\thumbnails.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/thumbnails.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\tooltip.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/tooltip.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\type.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/type.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\utilities.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/utilities.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\variables.css" afterPath="$PROJECT_DIR$/packages/bootstrap/less/variables.css" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\variables.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/variables.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\less\wells.less" afterPath="$PROJECT_DIR$/packages/bootstrap/less/wells.less" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\bootstrap\package.json" afterPath="$PROJECT_DIR$/packages/bootstrap/package.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\.bower.json" afterPath="$PROJECT_DIR$/packages/css-element-queries/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\LICENSE" afterPath="$PROJECT_DIR$/packages/css-element-queries/LICENSE" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\README.md" afterPath="$PROJECT_DIR$/packages/css-element-queries/README.md" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\bower.json" afterPath="$PROJECT_DIR$/packages/css-element-queries/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\src\ElementQueries.js" afterPath="$PROJECT_DIR$/packages/css-element-queries/src/ElementQueries.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\css-element-queries\src\ResizeSensor.js" afterPath="$PROJECT_DIR$/packages/css-element-queries/src/ResizeSensor.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\.bower.json" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\ChangeLog.md" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/ChangeLog.md" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\LICENSE.txt" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/LICENSE.txt" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\README.md" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/README.md" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\bower.json" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\jquery.mousewheel.js" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/jquery.mousewheel.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery-mousewheel\jquery.mousewheel.min.js" afterPath="$PROJECT_DIR$/packages/jquery-mousewheel/jquery.mousewheel.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\.bower.json" afterPath="$PROJECT_DIR$/packages/jquery/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\MIT-LICENSE.txt" afterPath="$PROJECT_DIR$/packages/jquery/MIT-LICENSE.txt" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\bower.json" afterPath="$PROJECT_DIR$/packages/jquery/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\dist\jquery.js" afterPath="$PROJECT_DIR$/packages/jquery/dist/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\dist\jquery.min.js" afterPath="$PROJECT_DIR$/packages/jquery/dist/jquery.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\dist\jquery.min.map" afterPath="$PROJECT_DIR$/packages/jquery/dist/jquery.min.map" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\jsonp.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/jsonp.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\load.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/load.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\parseJSON.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/parseJSON.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\parseXML.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/parseXML.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\script.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/script.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\ajax\xhr.js" afterPath="$PROJECT_DIR$/packages/jquery/src/ajax/xhr.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes\attr.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes/attr.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes\classes.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes/classes.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes\prop.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes/prop.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes\support.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes/support.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\attributes\val.js" afterPath="$PROJECT_DIR$/packages/jquery/src/attributes/val.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\callbacks.js" afterPath="$PROJECT_DIR$/packages/jquery/src/callbacks.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\core.js" afterPath="$PROJECT_DIR$/packages/jquery/src/core.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\core\access.js" afterPath="$PROJECT_DIR$/packages/jquery/src/core/access.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\core\init.js" afterPath="$PROJECT_DIR$/packages/jquery/src/core/init.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\core\parseHTML.js" afterPath="$PROJECT_DIR$/packages/jquery/src/core/parseHTML.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\core\ready.js" afterPath="$PROJECT_DIR$/packages/jquery/src/core/ready.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\addGetHookIf.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/addGetHookIf.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\curCSS.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/curCSS.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\defaultDisplay.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/defaultDisplay.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\hiddenVisibleSelectors.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/hiddenVisibleSelectors.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\support.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/support.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\css\swap.js" afterPath="$PROJECT_DIR$/packages/jquery/src/css/swap.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\data.js" afterPath="$PROJECT_DIR$/packages/jquery/src/data.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\data\Data.js" afterPath="$PROJECT_DIR$/packages/jquery/src/data/Data.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\data\accepts.js" afterPath="$PROJECT_DIR$/packages/jquery/src/data/accepts.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\deferred.js" afterPath="$PROJECT_DIR$/packages/jquery/src/deferred.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\deprecated.js" afterPath="$PROJECT_DIR$/packages/jquery/src/deprecated.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\dimensions.js" afterPath="$PROJECT_DIR$/packages/jquery/src/dimensions.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\effects.js" afterPath="$PROJECT_DIR$/packages/jquery/src/effects.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\effects\Tween.js" afterPath="$PROJECT_DIR$/packages/jquery/src/effects/Tween.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\effects\animatedSelector.js" afterPath="$PROJECT_DIR$/packages/jquery/src/effects/animatedSelector.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\event.js" afterPath="$PROJECT_DIR$/packages/jquery/src/event.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\event\alias.js" afterPath="$PROJECT_DIR$/packages/jquery/src/event/alias.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\event\support.js" afterPath="$PROJECT_DIR$/packages/jquery/src/event/support.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\exports\amd.js" afterPath="$PROJECT_DIR$/packages/jquery/src/exports/amd.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\exports\global.js" afterPath="$PROJECT_DIR$/packages/jquery/src/exports/global.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\intro.js" afterPath="$PROJECT_DIR$/packages/jquery/src/intro.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\jquery.js" afterPath="$PROJECT_DIR$/packages/jquery/src/jquery.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\manipulation.js" afterPath="$PROJECT_DIR$/packages/jquery/src/manipulation.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\manipulation\_evalUrl.js" afterPath="$PROJECT_DIR$/packages/jquery/src/manipulation/_evalUrl.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\manipulation\support.js" afterPath="$PROJECT_DIR$/packages/jquery/src/manipulation/support.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\offset.js" afterPath="$PROJECT_DIR$/packages/jquery/src/offset.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\outro.js" afterPath="$PROJECT_DIR$/packages/jquery/src/outro.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\queue.js" afterPath="$PROJECT_DIR$/packages/jquery/src/queue.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\queue\delay.js" afterPath="$PROJECT_DIR$/packages/jquery/src/queue/delay.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\selector-native.js" afterPath="$PROJECT_DIR$/packages/jquery/src/selector-native.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\selector-sizzle.js" afterPath="$PROJECT_DIR$/packages/jquery/src/selector-sizzle.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\selector.js" afterPath="$PROJECT_DIR$/packages/jquery/src/selector.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\serialize.js" afterPath="$PROJECT_DIR$/packages/jquery/src/serialize.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\sizzle\dist\sizzle.js" afterPath="$PROJECT_DIR$/packages/jquery/src/sizzle/dist/sizzle.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\sizzle\dist\sizzle.min.js" afterPath="$PROJECT_DIR$/packages/jquery/src/sizzle/dist/sizzle.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\sizzle\dist\sizzle.min.map" afterPath="$PROJECT_DIR$/packages/jquery/src/sizzle/dist/sizzle.min.map" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\traversing.js" afterPath="$PROJECT_DIR$/packages/jquery/src/traversing.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\traversing\findFilter.js" afterPath="$PROJECT_DIR$/packages/jquery/src/traversing/findFilter.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\jquery\src\wrap.js" afterPath="$PROJECT_DIR$/packages/jquery/src/wrap.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\linq-js\.bower.json" afterPath="$PROJECT_DIR$/packages/linq-js/.bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\linq-js\bower.json" afterPath="$PROJECT_DIR$/packages/linq-js/bower.json" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\linq-js\dist\linq.js" afterPath="$PROJECT_DIR$/packages/linq-js/dist/linq.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\linq-js\dist\linq.min.js" afterPath="$PROJECT_DIR$/packages/linq-js/dist/linq.min.js" />
-      <change type="MOVED" beforePath="C:\Users\gmeszaros\Documents\GitHub\FlowDesigner\src\packages\linq-js\src\linq.js" afterPath="$PROJECT_DIR$/packages/linq-js/src/linq.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.bowerrc" afterPath="$PROJECT_DIR$/.bowerrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/flowDesigner.js" afterPath="$PROJECT_DIR$/dist/js/flowDesigner.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/js/flowDesigner.min.js" afterPath="$PROJECT_DIR$/dist/js/flowDesigner.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulpfile.js" afterPath="$PROJECT_DIR$/gulpfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/itemDirective.js" afterPath="$PROJECT_DIR$/src/js/itemDirective.js" />
     </list>
     <ignored path="FlowDesigner.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,8 +34,18 @@
       <file leaf-file-name="designerDirective.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1003">
+            <state vertical-scroll-proportion="0.0" vertical-offset="457" max-vertical-offset="1003">
               <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="itemDirective.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0466787" vertical-offset="488" max-vertical-offset="1394">
+              <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -295,8 +64,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="731">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="731">
+              <caret line="14" column="101" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="101" />
               <folding>
                 <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -304,11 +73,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="connector.tmpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.5384617" vertical-offset="51" max-vertical-offset="867">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="item.tmpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1224">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="designer.tmpl.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/designer.tmpl.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bower.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bower.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.575" vertical-offset="143" max-vertical-offset="680">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+            <state vertical-scroll-proportion="-10.192307" vertical-offset="143" max-vertical-offset="680">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -329,13 +128,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/js/resourcePathService.js" />
         <option value="$PROJECT_DIR$/src/js/connectorDirective.js" />
-        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
         <option value="$PROJECT_DIR$/dist/js/flowDesigner.js" />
         <option value="$PROJECT_DIR$/src/js/designerDirective.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/.bowerrc" />
         <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/src/js/itemDirective.js" />
       </list>
     </option>
   </component>
@@ -413,6 +212,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="FlowDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FlowDesigner" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,14 +387,14 @@
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38543898" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38543898" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3037433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22677925" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23301986" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37366167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37366167" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -810,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/designer.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/packages/jquery/bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="561">
@@ -835,14 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3026">
           <caret line="137" column="10" selection-start-line="137" selection-start-column="10" selection-end-line="137" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1224">
-          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -877,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4" max-vertical-offset="867">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/resourcePathService.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
@@ -897,14 +709,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1071">
           <caret line="4" column="76" selection-start-line="4" selection-start-column="76" selection-end-line="4" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="487" max-vertical-offset="1394">
-          <caret line="46" column="35" selection-start-line="46" selection-start-column="35" selection-end-line="46" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -933,14 +737,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1003">
-          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1513">
@@ -957,20 +753,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.192307" vertical-offset="143" max-vertical-offset="680">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="731">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="731">
+          <caret line="14" column="101" selection-start-line="13" selection-start-column="4" selection-end-line="14" selection-end-column="101" />
           <folding>
             <element signature="n#style#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
+    <entry file="file://$PROJECT_DIR$/src/templates/connector.tmpl.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.575" vertical-offset="143" max-vertical-offset="680">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+        <state vertical-scroll-proportion="-6.5384617" vertical-offset="51" max-vertical-offset="867">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/item.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.038462" vertical-offset="0" max-vertical-offset="1224">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/designer.tmpl.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/designerDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="1003">
+          <caret line="41" column="35" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/itemDirective.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0466787" vertical-offset="488" max-vertical-offset="1394">
+          <caret line="63" column="53" selection-start-line="63" selection-start-column="53" selection-end-line="63" selection-end-column="53" />
           <folding />
         </state>
       </provider>
