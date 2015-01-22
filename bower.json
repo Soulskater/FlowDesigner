@@ -19,15 +19,16 @@
     "test",
     "tests",
     "src/packages",
-	"gulpfile.js",
-	"TestCtrl.js",
-	"index.html"
+    "gulpfile.js",
+    "TestCtrl.js",
+    "index.html"
   ],
   "dependencies": {
     "angular": "~1.2.26",
     "bootstrap": "~3.2.0",
     "jquery": "~2.1.1",
     "jquery-mousewheel": "~3.1.12",
-    "linq-js": "*"
+    "linq-js": "*",
+    "css-element-queries": "~0.0.2"
   }
 }
